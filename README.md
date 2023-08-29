@@ -1,15 +1,28 @@
-# README - Portfolio Alexander KK #
+# README - alexkknl Portfolio 02 #
 
 **This repository hosts my private portfolio web application.**
 
 ### What is this repository for? ###
 
-When looking for a new job, recruiters would like to understand what projects I worked on as a designer and what value my work brought to the projects. When they get my CV, under the most important career steps they can find a link to a related project page of my portfolio. This helps them to dive deeper and find further information they need to make a decision on either hiring me or not.
+Creating a portfolio web page for Alexander Karl Kruck-Kneip
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 * Version 2.0
 
 ## How do I get set up? ##
+These instructions assume that Node.js and NVM have been installed correctly.
+1. Have the package.json file ready in the folder.
+2. Check weather an older version of NPM 8 is in use 'nvm use 8'.
+3. Check if the command 'gulp serve' is starting the server.
+
+## Used commands for setup
+Go into the project folder and type the following commands:
+
+  npm install
+
+  nvm use 8
+
+  gulp serve
 
 ### Summary of set up ###
 This is a quite old set up I've started using in 2016 to organise my digital assets and deliverables for A/B experiments at Rentalcars.com in Manchester. I worked there as a UX Designer and needed to create capsuled HTML/CSS/JS artifacts to development to enable them to test new ideas against the existing user flow.
