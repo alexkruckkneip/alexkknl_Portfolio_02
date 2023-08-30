@@ -12,7 +12,7 @@ Creating a portfolio web page for Alexander Karl Kruck-Kneip
 ## How do I get set up? ##
 These instructions assume that Node.js and NVM have been installed correctly.
 1. Have the package.json file ready in the folder.
-2. Check weather an older version of NPM 8 is in use 'nvm use 8'.
+2. Check if the old version of NPM 8 is installed. This setup does not support a newer version.
 3. Check if the command 'gulp serve' is starting the server.
 
 ## Used commands for setup
@@ -33,9 +33,9 @@ This is a quite old set up I've started using in 2016 to organise my digital ass
 
 Since 2018 I'm using this setup to create my design portfolio web application, first for alexkk.ie and since 2020 for the domain alexkk.nl.
 
-The setup is focused on easy testing on multiple devices and sizes. It is Using the Technologies Node and Gulp which enables the usage of 'Gulp Browsersync'. This allows updating multiple devices when changes are made for example in the SASS code instantly.
+The setup is focused on easy testing on multiple devices and sizes. It is using the Technologies Node and Gulp which enables the usage of 'Gulp Browsersync'. This allows updating multiple devices when changes are made for example in the SASS code instantly.
 
-With a special focus on design assests, this setup includes a Gulp task that can automatically create a SVG sprite into the HTML header from a source folder with SVG images. Also useful is a GULP task that allows to generate WOFF font files out of TTF OS font files.
+With a special focus on design assets, this setup includes a Gulp task that can automatically create a SVG sprite into the HTML header from a source folder with SVG images. Also useful is a GULP task that allows to generate WOFF font files out of TTF OS font files.
 
 This system is open to use all GULP tasks for web development.
 
