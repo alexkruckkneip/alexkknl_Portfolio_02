@@ -1,0 +1,15 @@
+// button hexagon
+// ---------- ---------- ---------- ---------- ----------
+
+.btn-hexagon {
+  fill: none;
+  stroke: $grey-sand-300;
+  stroke-width: 1;
+
+  &__arrow {
+    fill: none;
+    stroke: $primary-200;
+    stroke-width: 1;
+    stroke-linecap: round;
+  }
+}
