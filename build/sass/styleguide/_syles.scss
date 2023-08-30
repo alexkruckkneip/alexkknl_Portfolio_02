@@ -1,0 +1,19 @@
+// ---------- ---------- ---------- ---------- ----------
+// Styles
+// ---------- ---------- ---------- ---------- ----------
+
+@mixin effect-style-shadow-soft-dark() {
+	box-shadow: 0px 0px 48px rgba(30,32,33,1);
+}
+@mixin effect-style-shadow-soft-dark-blue() {
+	box-shadow: 0px 0px 48px rgba(4,113,143,1);
+}
+@mixin effect-style-shadow-soft-light() {
+	box-shadow: 0px 0px 32px rgba(30,32,33,0.400);
+}
+@mixin effect-style-line-glow-light() {
+	box-shadow: 0px 0px 4px rgba(150,230,252,1);
+}
+@mixin effect-style-line-glow-bright() {
+	box-shadow: 0px 0px 32px rgba(150,230,252,1);
+}
