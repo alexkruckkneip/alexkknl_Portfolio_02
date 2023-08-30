@@ -18,11 +18,15 @@ These instructions assume that Node.js and NVM have been installed correctly.
 ## Used commands for setup
 Go into the project folder and type the following commands:
 
-  npm install
-
-  nvm use 8
-
-  gulp serve
+~~~~
+npm install
+~~~~
+~~~~
+nvm use 8
+~~~~
+~~~~
+gulp serve
+~~~~
 
 ### Summary of set up ###
 This is a quite old set up I've started using in 2016 to organise my digital assets and deliverables for A/B experiments at Rentalcars.com in Manchester. I worked there as a UX Designer and needed to create capsuled HTML/CSS/JS artifacts to development to enable them to test new ideas against the existing user flow.
