@@ -7,10 +7,12 @@
 // ---------- ---------- ---------- ---------- ----------
 
 // sass
-@import 'sass/page';
 @import 'sass/variable';
 
 //styleguide
 @import 'styleguide/colour';
 @import 'styleguide/styles';
 @import 'styleguide/type';
+
+// layout
+@import 'layout/page';
