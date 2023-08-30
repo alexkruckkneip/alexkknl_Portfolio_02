@@ -2,6 +2,21 @@
 // layout
 // ---------- ---------- ---------- ---------- ----------
 
+// Idea source: https://web.dev/one-line-layouts/
+
 
 // Laptop
 // ---------- ---------- ---------- ---------- ----------
+
+.row {
+  background-color: $color-grey-grey-blue-600;
+  display: grid;
+  place-items: center;
+  width: 100%;
+
+  .column {
+    background-color: $color-grey-grey-blue-700;
+    width: 100%;
+    max-width: 1264px;
+  }
+}
