@@ -1,16 +1,12 @@
 // ---------- ---------- ---------- ---------- ----------
-// style
+// page
 // ---------- ---------- ---------- ---------- ----------
 
 
-// atoms
+// html
 // ---------- ---------- ---------- ---------- ----------
 
-// sass
-@import 'sass/page';
-@import 'sass/variable';
-
-//styleguide
-@import 'styleguide/colour';
-@import 'styleguide/styles';
-@import 'styleguide/type';
+html {
+ background-color: $color-grey-grey-blue-900;
+ height: 100%;
+}
