@@ -6,7 +6,21 @@
 // Html
 // ---------- ---------- ---------- ---------- ----------
 
-html, body {
+html {
+  background-color: $color-grey-blue-850;
+}
+
+body.dark {
  background:$color-gradient-grey-blue-vertical;
  height: 100%;
+}
+
+
+// Sprite
+// ---------- ---------- ---------- ---------- ----------
+
+.svg-sprite {
+    height: 0;
+    width: 0;
+    overflow: hidden;
 }

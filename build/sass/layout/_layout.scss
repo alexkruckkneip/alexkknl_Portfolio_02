@@ -8,25 +8,45 @@
 // Laptop
 // ---------- ---------- ---------- ---------- ----------
 
+.container {
+  padding: 64px 0;
+
+  @media (max-width: $breakpoint--lg) {
+    padding: 64px 0;
+  }
+  @media (max-width: $breakpoint--md) {
+    padding: 56px 0;
+  }
+  @media (max-width: $breakpoint--md) {
+    padding: 48px 0;
+  }
+  @media (max-width: $breakpoint--xs) {
+    padding: 24px 0;
+  }
+  @media (max-width: $breakpoint--xxs) {
+    padding: 16px 0;
+  }
+}
+
 .row {
   display: grid;
   place-items: center;
-  padding: 0 64px;
+  padding: 32px 64px;
 
   @media (max-width: $breakpoint--lg) {
-    padding: 0 64px;
+    padding: 32px 64px;
   }
   @media (max-width: $breakpoint--md) {
-    padding: 0 56px;
+    padding: 24px 56px;
   }
   @media (max-width: $breakpoint--md) {
-    padding: 0 48px;
+    padding: 24px 48px;
   }
   @media (max-width: $breakpoint--xs) {
-    padding: 0 24px;
+    padding: 12px 24px;
   }
   @media (max-width: $breakpoint--xxs) {
-    padding: 0 16px;
+    padding: 16px 16px;
   }
 
   .column {
