@@ -176,11 +176,13 @@ h1, h2, h3, h4, h5 {
 &-01 {
     &-uppercase {
       @include text-style-hero-hero-01-uppercase
+      hyphens: auto;
     }
   }
 &-02 {
     &-uppercase {
       @include text-style-hero-hero-02-uppercase
+      hyphens: auto;
     }
   }
 }
