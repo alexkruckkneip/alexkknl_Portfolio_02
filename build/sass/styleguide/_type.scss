@@ -34,9 +34,8 @@
   }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Roboto Slab";
-  font-weight: 700;
-  font-style: normal;
+  font-family: "roboto_slab--bold";
+  font-weight: 500;
 }
 
 @mixin text-style-h-1-uppercase() {
@@ -120,7 +119,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-01-uppercase() {
 	font-size: 96px;
-	font-family: "Roboto Slab";
+	font-family: "roboto_slab--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 88px;
@@ -129,7 +128,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-02-uppercase() {
 	font-size: 64px;
-	font-family: "Roboto Slab";
+	font-family: "roboto_slab--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 56px;
@@ -138,7 +137,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-02() {
 	font-size: 48px;
-	font-family: "Roboto Slab";
+	font-family: "roboto_slab";
 	font-weight: 400;
 	font-style: normal;
 	line-height: 140%;
@@ -171,4 +170,10 @@ h1, h2, h3, h4, h5 {
 	line-height: 32px;
 	text-decoration: none;
 	text-transform: none;
+}
+
+.text-style-hero {
+&-01 {
+    @include text-style-hero-hero-01-uppercase
+  }
 }
