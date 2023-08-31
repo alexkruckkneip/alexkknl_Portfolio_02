@@ -1,8 +1,8 @@
 // ---------- ---------- ---------- ---------- ----------
-// colour
+// Colour
 // ---------- ---------- ---------- ---------- ----------
 
-// primary
+// Primary
 // ---------- ---------- ---------- ---------- ----------
 
 $color-primary-50: rgba(224,248,254,1);
@@ -17,7 +17,7 @@ $color-primary-800: rgba(3,74,93,1);
 $color-primary-900: rgba(1,35,44,1);
 
 
-// grey-blue
+// Prey-blue
 // ---------- ---------- ---------- ---------- ----------
 
 $color-grey-blue-50: rgba(248,248,249,1);
@@ -33,14 +33,14 @@ $color-grey-blue-850: rgba(42,45,47,1);
 $color-grey-blue-900: rgba(30,32,33,1);
 
 
-// grey-blue
+// Grey-blue
 // ---------- ---------- ---------- ---------- ----------
 
 $color-gradient-grey-blue-vertical: linear-gradient(45deg, $color-grey-blue-800 0%,$color-grey-blue-900 100%);
 $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0.118) 0%,rgba(54,58,60,0.212) 100%);
 
 
-// color-text
+// Color-text
 // ---------- ---------- ---------- ---------- ----------
 
 .text {
@@ -74,10 +74,10 @@ $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0
 }
 
 
-// color-svg
+// Color-svg
 // ---------- ---------- ---------- ---------- ----------
 
-// stroke
+// Stroke
 
 .svg {
   &-color-stroke {
@@ -110,7 +110,7 @@ $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0
 }
 
 
-// fill
+// Fill
 
 .svg {
   &-color-fill {
