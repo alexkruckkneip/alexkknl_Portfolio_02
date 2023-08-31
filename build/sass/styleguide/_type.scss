@@ -176,4 +176,7 @@ h1, h2, h3, h4, h5 {
 &-01 {
     @include text-style-hero-hero-01-uppercase
   }
+&-02 {
+    @include text-style-hero-hero-02-uppercase
+  }
 }
