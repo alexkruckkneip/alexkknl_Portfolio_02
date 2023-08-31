@@ -2,12 +2,38 @@
 // Helper
 // ---------- ---------- ---------- ---------- ----------
 
+
+// Mixins
+// ---------- ---------- ---------- ---------- ----------
+
+@mixin helper-color-size {
+  height: 96px;
+  width: 96px;
+}
+
+
+// Styleguide-color
+// ---------- ---------- ---------- ---------- ----------
+
 .helper- {
   &color {
+    &-wrapper {
+      display: grid;
+      grid-gap: 24px;
+      grid-template-columns: repeat(auto-fill, 96px);
+    }
     &_style {
-      display: inline-block;
-      height: 80px;
-      width: 80px;
+
+      svg {
+        display: block;
+        @include helper-color-size;
+      }
+    }
+    &-description {
+      @include helper-color-size;
+
+      span {
+      }
     }
   }
 }
