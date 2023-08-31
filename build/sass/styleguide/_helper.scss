@@ -7,8 +7,8 @@
 // ---------- ---------- ---------- ---------- ----------
 
 @mixin helper-color-size {
-  height: 96px;
-  width: 96px;
+  height: 112px;
+  width: 112px;
 }
 
 
@@ -23,16 +23,22 @@
       grid-template-columns: repeat(auto-fill, 96px);
     }
     &_style {
+      display: grid;
+      place-items: center;
+      @include helper-color-size;
 
       svg {
         display: block;
+        position: absolute;
+        z-index: 1;
         @include helper-color-size;
       }
     }
     &-description {
-      @include helper-color-size;
+      z-index: 2;
 
       span {
+        display: block;
       }
     }
   }
