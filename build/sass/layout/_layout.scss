@@ -9,7 +9,7 @@
 // ---------- ---------- ---------- ---------- ----------
 
 .row {
-  background-color: $color-grey-grey-blue-600;
+  background-color: $color-grey-blue-600;
   display: grid;
   place-items: center;
   padding: 0 64px;
@@ -31,7 +31,7 @@
   }
 
   .column {
-    background-color: $color-grey-grey-blue-700;
+    background-color: $color-grey-blue-700;
     width: 100%;
     max-width: 1280px;
   }

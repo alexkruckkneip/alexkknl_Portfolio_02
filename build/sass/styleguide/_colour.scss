@@ -40,7 +40,6 @@ $color-gradient-grey-blue-vertical: linear-gradient(45deg, $color-grey-blue-800 
 $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0.118) 0%,rgba(54,58,60,0.212) 100%);
 
 
-
 // color-text
 // ---------- ---------- ---------- ---------- ----------
 
@@ -70,6 +69,75 @@ $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0
       &-800 {color: $color-grey-blue-800}
       &-850 {color: $color-grey-blue-850}
       &-900 {color: $color-grey-blue-900}
+    }
+  }
+}
+
+
+// color-svg
+// ---------- ---------- ---------- ---------- ----------
+
+// stroke
+
+.svg {
+  &-color-stroke {
+    &-primary {
+      &-50 {stroke: $color-primary-50}
+      &-100 {stroke: $color-primary-100}
+      &-200 {stroke: $color-primary-200}
+      &-300 {stroke: $color-primary-300}
+      &-400 {stroke: $color-primary-400}
+      &-500 {stroke: $color-primary-500}
+      &-600 {stroke: $color-primary-600}
+      &-700 {stroke: $color-primary-700}
+      &-800 {stroke: $color-primary-800}
+      &-900 {stroke: $color-primary-900}
+    }
+    &-grey-blue {
+      &-50 {stroke: $color-grey-blue-50}
+      &-100 {stroke: $color-grey-blue-100}
+      &-200 {stroke: $color-grey-blue-200}
+      &-300 {stroke: $color-grey-blue-300}
+      &-400 {stroke: $color-grey-blue-400}
+      &-500 {stroke: $color-grey-blue-500}
+      &-600 {stroke: $color-grey-blue-600}
+      &-700 {stroke: $color-grey-blue-700}
+      &-800 {stroke: $color-grey-blue-800}
+      &-850 {stroke: $color-grey-blue-850}
+      &-900 {stroke: $color-grey-blue-900}
+    }
+  }
+}
+
+
+// fill
+
+.svg {
+  &-color-fill {
+    &-primary {
+      &-50 {fill: $color-primary-50}
+      &-100 {fill: $color-primary-100}
+      &-200 {fill: $color-primary-200}
+      &-300 {fill: $color-primary-300}
+      &-400 {fill: $color-primary-400}
+      &-500 {fill: $color-primary-500}
+      &-600 {fill: $color-primary-600}
+      &-700 {fill: $color-primary-700}
+      &-800 {fill: $color-primary-800}
+      &-900 {fill: $color-primary-900}
+    }
+    &-grey-blue {
+      &-50 {fill: $color-grey-blue-50}
+      &-100 {fill: $color-grey-blue-100}
+      &-200 {fill: $color-grey-blue-200}
+      &-300 {fill: $color-grey-blue-300}
+      &-400 {fill: $color-grey-blue-400}
+      &-500 {fill: $color-grey-blue-500}
+      &-600 {fill: $color-grey-blue-600}
+      &-700 {fill: $color-grey-blue-700}
+      &-800 {fill: $color-grey-blue-800}
+      &-850 {fill: $color-grey-blue-850}
+      &-900 {fill: $color-grey-blue-900}
     }
   }
 }
