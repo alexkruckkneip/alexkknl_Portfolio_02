@@ -3,17 +3,22 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
-// atoms
+// SASS
 // ---------- ---------- ---------- ---------- ----------
 
-// sass
 @import 'sass/variable';
 
-//styleguide
+// Styleguide
+// ---------- ---------- ---------- ---------- ----------
+
 @import 'styleguide/colour';
+@import 'styleguide/helper';
 @import 'styleguide/styles';
 @import 'styleguide/type';
 
-// layout
+
+// Layout
+// ---------- ---------- ---------- ---------- ----------
+
 @import 'layout/layout';
 @import 'layout/page';
