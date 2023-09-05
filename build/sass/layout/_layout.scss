@@ -57,6 +57,12 @@
     // column ratio of 1 to 2
     &-1-to-2 {
       grid-template-columns: 1fr 2fr;
+
+      .column {
+        &-paragraph-2 {
+          column-count: 2;
+        }
+      }
     }
   }
 
