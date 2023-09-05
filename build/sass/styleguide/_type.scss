@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5 {
 }
 
 @mixin text-style-h-1-uppercase() {
+  font-family: "roboto_slab--medium";
+  font-weight: 500;
 	font-size: 48px;
 	line-height: 48px;
 	text-decoration: none;
