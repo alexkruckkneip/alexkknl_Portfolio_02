@@ -34,7 +34,7 @@
   }
 
 h1, h2, h3, h4, h5 {
-  font-family: "roboto_slab--bold";
+  font-family: "roboto_slab--medium";
   font-weight: 500;
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-2() {
 	font-size: 32px;
-	font-family: "roboto_slab--bold";
+	font-family: "roboto_slab--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 40px;
@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-2-uppercase() {
 	font-size: 32px;
-	font-family: "Roboto Slab";
-	font-weight: 700;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 32px;
 	text-decoration: none;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-2-quote() {
 	font-size: 32px;
-	font-family: "Roboto Serif";
+	font-family: "roboto_slab--medium";
 	font-weight: 500;
 	font-style: italic;
 	line-height: 40px;
@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-3() {
 	font-size: 20px;
-	font-family: "Roboto Slab";
-	font-weight: 700;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 24px;
 	text-decoration: none;
@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-3-uppercase() {
 	font-size: 24px;
-	font-family: "Roboto Slab";
-	font-weight: 600;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 24px;
 	text-decoration: none;
@@ -91,8 +91,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-4-uppercase() {
 	font-size: 20px;
-	font-family: "Roboto Slab";
-	font-weight: 600;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 20px;
 	text-decoration: none;
@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-p() {
 	font-size: 16px;
-	font-family: "Roboto Slab";
-	font-weight: 400;
+	font-family: "roboto_slab";
+	font-weight: 300;
 	font-style: normal;
 	line-height: 24px;
 	text-decoration: none;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-p-bold() {
 	font-size: 16px;
-	font-family: "Roboto Slab";
+	font-family: "roboto_slab--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 24px;
@@ -209,5 +209,14 @@ h1, h2, h3, h4, h5 {
 .text-style {
   &-h1-uppercase {
     @include text-style-h-1-uppercase
+  }
+  &-h2-uppercase {
+    @include text-style-h-2-uppercase
+  }
+  &-h2 {
+    @include text-style-h-2
+  }
+  &-h2-quote {
+    @include text-style-h-2-quote
   }
 }
