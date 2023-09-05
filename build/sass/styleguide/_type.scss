@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5 {
 
 @mixin text-style-h-1-uppercase() {
 	font-size: 48px;
-
 	line-height: 48px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -137,8 +136,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-02() {
 	font-size: 48px;
-	font-family: "roboto_slab";
-	font-weight: 400;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 140%;
 	text-decoration: none;
@@ -146,8 +145,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-03() {
 	font-size: 32px;
-	font-family: "Roboto Slab";
-	font-weight: 400;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 40px;
 	text-decoration: none;
@@ -155,8 +154,8 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-3-emphasised() {
 	font-size: 32px;
-	font-family: "Roboto Slab";
-	font-weight: 600;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 40px;
 	text-decoration: none;
@@ -164,25 +163,51 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-04() {
 	font-size: 24px;
-	font-family: "Roboto Slab";
-	font-weight: 400;
+	font-family: "roboto_slab--medium";
+	font-weight: 500;
 	font-style: normal;
 	line-height: 32px;
 	text-decoration: none;
 	text-transform: none;
 }
 
+
+// Hero
+// ---------- ---------- ---------- ---------- ----------
+
 .text-style-hero {
-&-01 {
+  &-01 {
     &-uppercase {
       @include text-style-hero-hero-01-uppercase
       hyphens: auto;
     }
   }
-&-02 {
-    &-uppercase {
-      @include text-style-hero-hero-02-uppercase
-      hyphens: auto;
-    }
+  &-02 {
+      &-uppercase {
+        @include text-style-hero-hero-02-uppercase
+        hyphens: auto;
+      }
+
+    @include text-style-hero-hero-02
+  }
+  &-03 {
+      @include text-style-hero-hero-03
+
+      &-emphasised {
+        @include text-style-hero-hero-3-emphasised
+      }
+  }
+  &-04 {
+      @include text-style-hero-hero-04
+  }
+}
+
+
+// Headlines
+// ---------- ---------- ---------- ---------- ----------
+
+.text-style {
+  &-h1-uppercase {
+    @include text-style-h-1-uppercase
   }
 }
