@@ -61,9 +61,9 @@ gulp.task('svgstore', function () {
 var ttf2woff = require('gulp-ttf2woff');
 
 gulp.task('ttf2woff', function(){
-  gulp.src(['html/assets/fonts/Roboto_Slab/*.ttf'])
+  gulp.src(['html/assets/fonts/Roboto_Serif/*.ttf'])
     .pipe(ttf2woff())
-    .pipe(gulp.dest('html/assets/fonts/Roboto_Slab/'));
+    .pipe(gulp.dest('html/assets/fonts/Roboto_Serif/'));
 });
 
 
@@ -72,9 +72,9 @@ gulp.task('ttf2woff', function(){
 var ttf2eot = require('gulp-ttf2eot');
 
 gulp.task('ttf2eot', function(){
-  gulp.src(['html/assets/fonts/Roboto_Slab/*.ttf'])
+  gulp.src(['html/assets/fonts/Roboto_Serif/*.ttf'])
     .pipe(ttf2eot())
-    .pipe(gulp.dest('html/assets/fonts/Roboto_Slab/'));
+    .pipe(gulp.dest('html/assets/fonts/Roboto_Serif/'));
 });
 
 // default task runner
