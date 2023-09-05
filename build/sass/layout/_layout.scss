@@ -30,8 +30,10 @@
 
 .row {
   display: grid;
-  place-items: center;
+  margin: auto;
+  max-width: 1280px;
   padding: 32px 64px;
+  place-items: baseline;
 
   @media (max-width: $breakpoint--lg) {
     padding: 32px 64px;
@@ -49,8 +51,15 @@
     padding: 16px 16px;
   }
 
+  &.column {
+
+    // column ratio of 1 to 2
+    &-1-to-2 {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
   .column {
     width: 100%;
-    max-width: 1280px;
   }
 }
