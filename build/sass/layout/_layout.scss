@@ -46,13 +46,15 @@ $mask-gate-height: 9840px;
 
   &-image {
     &-mask {
-      display: block;
+      align-content: center;
+      display: grid;
       height: 66vh;
+      justify-content: center;
+      overflow: hidden;
       width: 100%;
 
       svg {
         display: block;
-
         @include mask-gate-size
       }
     }
