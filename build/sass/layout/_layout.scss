@@ -6,6 +6,22 @@
 // Idea source: CSS Grid: Newspaper Layout https://codepen.io/oliviale/pen/BaoXOOP
 
 
+// Variables
+// ---------- ---------- ---------- ---------- ----------
+
+$mask-gate-width: 9264px;
+$mask-gate-height: 9840px;
+
+
+// Mixin
+// ---------- ---------- ---------- ---------- ----------
+
+@mixin mask-gate-size() {
+  height: $mask-gate-height;
+  width: $mask-gate-width;
+}
+
+
 // Laptop
 // ---------- ---------- ---------- ---------- ----------
 
@@ -30,8 +46,15 @@
 
   &-image {
     &-mask {
-      width: 100%;
+      display: block;
       height: 66vh;
+      width: 100%;
+
+      svg {
+        display: block;
+
+        @include mask-gate-size
+      }
     }
   }
 }
