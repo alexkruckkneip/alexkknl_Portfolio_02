@@ -96,5 +96,16 @@
     img {
       width: 100%;
     }
+    &-paragraph-3 {
+      column-count: 3;
+      column-gap: 32px;
+
+      @media (max-width: $breakpoint--lg) {
+        column-count: 2;
+      }
+      @media (max-width: $breakpoint--sm) {
+        column-count: 1;
+      }
+    }
   }
 }
