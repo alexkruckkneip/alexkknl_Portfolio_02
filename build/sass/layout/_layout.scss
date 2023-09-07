@@ -27,6 +27,13 @@
   @media (max-width: $breakpoint--xxs) {
     padding: 16px 0;
   }
+
+  &-image {
+    &-mask {
+      width: 100%;
+      height: 66vh;
+    }
+  }
 }
 
 .row {
