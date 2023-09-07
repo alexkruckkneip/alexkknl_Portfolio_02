@@ -9,8 +9,8 @@
 // Variables
 // ---------- ---------- ---------- ---------- ----------
 
-$mask-gate-width: 9264px;
-$mask-gate-height: 9840px;
+$mask-gate-width: 9840px;
+$mask-gate-height: 4772px;
 
 
 // Mixin
@@ -46,7 +46,7 @@ $mask-gate-height: 9840px;
 
   &-image {
     &-mask {
-      align-content: center;
+      align-content: flex-end;
       display: grid;
       height: 66vh;
       justify-content: center;
