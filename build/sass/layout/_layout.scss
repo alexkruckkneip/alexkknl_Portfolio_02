@@ -44,19 +44,24 @@ $mask-gate-height: 4772px;
     padding: 16px 0;
   }
 
-  &-gate {
-    &-image-mask {
-      // align-content: flex-end;
-      // display: grid;
-      // height: 66vh;
-      // justify-content: center;
-      overflow: hidden;
+  &-mask {
+    &-image {
       width: 100%;
 
       // svg {
       //   display: block;
+      //   background: url(../assets/img/about_me/img-05-alexkk--bw.jpg);
       //   @include mask-gate-size
       // }
+
+      img {
+        mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      	mask-size: $mask-gate-width;
+        -webkit-mask-size: $mask-gate-width;
+        min-height: 66vh;
+        min-width: 100%;
+      }
     }
   }
 }
