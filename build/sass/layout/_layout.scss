@@ -4,6 +4,7 @@
 
 // Idea source: https://web.dev/one-line-layouts/
 // Idea source: CSS Grid: Newspaper Layout https://codepen.io/oliviale/pen/BaoXOOP
+// Idea source: https://visualcomposer.com/blog/how-to-add-custom-svg-masks-to-images-in-wordpress/
 
 
 // Variables
@@ -46,22 +47,18 @@ $mask-gate-height: 4772px;
 
   &-mask {
     &-image {
+      display: grid;
+      align-items: center;
+      height: 66vh;
+      justify-content: center;
+
+      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+    	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+    	mask-size: $mask-gate-width;
+      -webkit-mask-size: $mask-gate-width;
+
+      overflow: hidden;
       width: 100%;
-
-      // svg {
-      //   display: block;
-      //   background: url(../assets/img/about_me/img-05-alexkk--bw.jpg);
-      //   @include mask-gate-size
-      // }
-
-      img {
-        mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      	mask-size: $mask-gate-width;
-        -webkit-mask-size: $mask-gate-width;
-        min-height: 66vh;
-        min-width: 100%;
-      }
     }
   }
 }
