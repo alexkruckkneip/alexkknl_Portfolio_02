@@ -44,19 +44,19 @@ $mask-gate-height: 4772px;
     padding: 16px 0;
   }
 
-  &-image {
-    &-mask {
-      align-content: flex-end;
-      display: grid;
-      height: 66vh;
-      justify-content: center;
+  &-gate {
+    &-image-mask {
+      // align-content: flex-end;
+      // display: grid;
+      // height: 66vh;
+      // justify-content: center;
       overflow: hidden;
       width: 100%;
 
-      svg {
-        display: block;
-        @include mask-gate-size
-      }
+      // svg {
+      //   display: block;
+      //   @include mask-gate-size
+      // }
     }
   }
 }
