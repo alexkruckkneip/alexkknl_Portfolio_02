@@ -52,6 +52,9 @@ $mask-gate-height: 4772px;
       height: 66vh;
       justify-content: center;
 
+      background-position: center;
+      background-size: cover;
+
       mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	mask-size: $mask-gate-width;
@@ -59,6 +62,7 @@ $mask-gate-height: 4772px;
 
       overflow: hidden;
       width: 100%;
+
     }
   }
 }
