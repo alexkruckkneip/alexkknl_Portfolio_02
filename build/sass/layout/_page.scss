@@ -3,12 +3,6 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
-// Variables
-// ---------- ---------- ---------- ---------- ----------
-
-$mask-nav-width: 9840px;
-$mask-nav-height: 4772px;
-
 // Html
 // ---------- ---------- ---------- ---------- ----------
 
@@ -43,13 +37,13 @@ body.dark {
       background-position: center;
       background-size: cover;
       display: grid;
-      height: 80px;
+      height: 64px;
       justify-content: center;
 
       mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-    	mask-size: $mask-gate-width;
-      -webkit-mask-size: $mask-gate-width;
+    	mask-size: $mask-nav-width;
+      -webkit-mask-size: $mask-nav-width;
 
       overflow: hidden;
       position: fixed;
