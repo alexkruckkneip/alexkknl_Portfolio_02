@@ -11,7 +11,7 @@ html {
 }
 
 body.dark {
- background:$color-gradient-grey-blue-vertical;
+ background: $color-gradient-grey-blue-vertical;
  height: 100%;
  padding-top: 80px;
 }
@@ -34,6 +34,7 @@ body.dark {
   &-wrapper {
     &-top {
       align-items: center;
+      background: $color-gradient-grey-blue-vertical;
       background-position: center;
       background-size: cover;
       display: grid;
@@ -44,8 +45,7 @@ body.dark {
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	mask-size: $mask-nav-width;
       -webkit-mask-size: $mask-nav-width;
-
-      overflow: hidden;
+      
       position: fixed;
       top: 0;
       width: 100%;
