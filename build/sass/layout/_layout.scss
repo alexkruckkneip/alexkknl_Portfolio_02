@@ -26,6 +26,27 @@ $mask-gate-height: 4772px;
 // Navigation top
 // ---------- ---------- ---------- ---------- ----------
 
+.nav {
+  &-wrapper {
+    &-top {
+      align-items: center;
+      background-position: center;
+      background-size: cover;
+      display: grid;
+      height: 80px;
+      justify-content: center;
+
+      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+    	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+    	mask-size: $mask-gate-width;
+      -webkit-mask-size: $mask-gate-width;
+
+      overflow: hidden;
+      width: 100%;
+    }
+  }
+}
+
 
 // Container
 // ---------- ---------- ---------- ---------- ----------
@@ -54,13 +75,12 @@ $mask-gate-height: 4772px;
 
   &-mask {
     &-image {
-      display: grid;
       align-items: center;
-      height: 72vh;
-      justify-content: center;
-
       background-position: center;
       background-size: cover;
+      display: grid;
+      height: 72vh;
+      justify-content: center;
 
       mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
