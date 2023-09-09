@@ -45,11 +45,19 @@ body.dark {
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	mask-size: $mask-nav-width;
       -webkit-mask-size: $mask-nav-width;
-      
+
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 100;
     }
   }
+}
+
+
+// page index.html
+// ---------- ---------- ---------- ---------- ----------
+
+body.page-index {
+  padding-top: 0;
 }
