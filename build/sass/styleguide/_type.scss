@@ -160,14 +160,14 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	text-transform: none;
 }
-@mixin text-style-hero-hero-3-emphasised() {
-	font-size: 32px;
-	font-family: "roboto_slab--medium";
-	font-weight: 500;
+@mixin text-style-hero-hero-03-uppercase() {
+  font-size: 32px;
+	font-family: "roboto_slab--bold";
+	font-weight: 700;
 	font-style: normal;
 	line-height: 40px;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 }
 @mixin text-style-hero-hero-04() {
 	font-size: 24px;
@@ -201,8 +201,8 @@ h1, h2, h3, h4, h5 {
   &-03 {
       @include text-style-hero-hero-03
 
-      &-emphasised {
-        @include text-style-hero-hero-3-emphasised
+      &-uppercase {
+        @include text-style-hero-hero-03-uppercase
       }
   }
   &-04 {
