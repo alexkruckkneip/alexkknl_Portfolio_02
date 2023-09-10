@@ -66,20 +66,6 @@
       margin-top: 96px;
     }
   }
-  &-left {
-    &-24 {
-      margin-left: 24px;
-    }
-    &-32 {
-      margin-left: 32px;
-    }
-    &-48 {
-      margin-left: 48px;
-    }
-    &-64 {
-      margin-left: 64px;
-    }
-  }
   &-bottom {
     &-24 {
       margin-bottom: 24px;
@@ -95,3 +81,5 @@
     }
   }
 }
+
+// Remove whitespace on mobile
