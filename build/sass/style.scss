@@ -12,7 +12,6 @@
 // ---------- ---------- ---------- ---------- ----------
 
 @import 'styleguide/colour';
-@import 'styleguide/helper';
 @import 'styleguide/styles';
 @import 'styleguide/type';
 
@@ -22,3 +21,8 @@
 
 @import 'layout/layout';
 @import 'layout/page';
+
+// Helper
+// ---------- ---------- ---------- ---------- ----------
+
+@import 'styleguide/helper';
