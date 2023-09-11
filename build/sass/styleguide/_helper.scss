@@ -82,4 +82,10 @@
   }
 }
 
-// Remove whitespace on mobile
+// Remove whitespace on first line headline
+
+h1, h2, h3, h4, h5 {
+  &.column-first-headline {
+    margin-block-start: 0;
+  }
+}
