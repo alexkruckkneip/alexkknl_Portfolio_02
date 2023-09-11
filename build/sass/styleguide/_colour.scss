@@ -38,6 +38,7 @@ $color-grey-blue-900: rgba(30,32,33,1);
 // ---------- ---------- ---------- ---------- ----------
 
 $color-gradient-grey-blue-vertical: linear-gradient(45deg, $color-grey-blue-800 0%,$color-grey-blue-900 100%);
+$color-gradient-grey-blue-vertical-invert: linear-gradient(135deg, $color-grey-blue-800 0%,$color-grey-blue-900 100%);
 $color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0.118) 0%,rgba(54,58,60,0.212) 100%);
 
 
