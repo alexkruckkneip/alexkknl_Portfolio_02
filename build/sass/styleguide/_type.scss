@@ -238,8 +238,19 @@ h1, h2, h3, h4, h5 {
   &-h4-uppercase {
     @include text-style-h-4-uppercase
   }
+
+
+  // Paragraph
+  // ---------- ---------- ---------- ---------- ----------
+
   &-p {
     @include text-style-p
+
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 24px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
     &-bold {
       @include text-style-p-bold
