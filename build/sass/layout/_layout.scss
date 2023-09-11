@@ -78,8 +78,14 @@
 // Hero
 
 .hero {
-  &-1-1 {
+  @include basic-grid
 
+  &-1-1 {
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: $breakpoint--sm) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
