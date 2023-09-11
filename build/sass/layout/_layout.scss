@@ -136,21 +136,10 @@
       @media (max-width: $breakpoint--sm) {
         grid-template-columns: 1fr;
       }
-
-      .column {
-
-        &-paragraph-2 {
-          column-count: 2;
-          column-gap: 32px;
-
-          @media (max-width: $breakpoint--lg) {
-            column-count: 1;
-          }
-        }
-      }
     }
 
-    &-2-1 {
+    // column ratio of 2 to 1
+    &-2-to-1 {
       grid-template-columns: 2fr 1fr;
 
       @media (max-width: $breakpoint--lg) {
@@ -161,6 +150,8 @@
       }
     }
   }
+
+  // column full width
   &-full-width {
     max-width: 100%;
     padding: 0;
@@ -185,6 +176,15 @@
         column-count: 2;
       }
       @media (max-width: $breakpoint--sm) {
+        column-count: 1;
+      }
+    }
+
+    &-paragraph-2 {
+      column-count: 2;
+      column-gap: 32px;
+
+      @media (max-width: $breakpoint--lg) {
         column-count: 1;
       }
     }
