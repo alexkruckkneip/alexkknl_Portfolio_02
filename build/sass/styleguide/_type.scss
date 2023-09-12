@@ -142,6 +142,10 @@ h1, h2, h3, h4, h5 {
     font-size: 96px*0.75;
     line-height: 88px*0.75;
   }
+  @media (max-width: $breakpoint--xxs) {
+    font-size: 96px*0.5;
+    line-height: 88px*0.5;
+  }
 }
 @mixin text-style-hero-hero-02-uppercase() {
 	font-size: 64px;
@@ -155,6 +159,10 @@ h1, h2, h3, h4, h5 {
   @media (max-width: $breakpoint--md) {
     font-size: 64px*0.75;
     line-height: 56px*0.75;
+  }
+  @media (max-width: $breakpoint--xxs) {
+    font-size: 64px*0.5;
+    line-height: 56px*0.5;
   }
 }
 @mixin text-style-hero-hero-02() {
@@ -187,6 +195,10 @@ h1, h2, h3, h4, h5 {
   @media (max-width: $breakpoint--md) {
     font-size: 32px*0.75;
     line-height: 40px*0.75;
+  }
+  @media (max-width: $breakpoint--xxs) {
+    font-size: 32px*0.5;
+    line-height: 40px*0.5;
   }
 }
 @mixin text-style-hero-hero-04() {
