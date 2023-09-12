@@ -82,6 +82,34 @@
   }
 }
 
+
+// Whitespace sm
+
+@media (max-width: $breakpoint--sm) {
+  .whitespace {
+    &-mobile {
+      &-top {
+        &-24 {
+          margin-top: 24px;
+        }
+        &-32 {
+          margin-top: 32px;
+        }
+        &-48 {
+          margin-top: 48px;
+        }
+        &-64 {
+          margin-top: 64px;
+        }
+        &-96 {
+          margin-top: 96px;
+        }
+      }
+    }
+  }
+}
+
+
 // Remove whitespace on first line headline
 
 h1, h2, h3, h4, h5 {
