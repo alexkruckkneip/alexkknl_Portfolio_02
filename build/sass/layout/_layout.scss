@@ -47,7 +47,7 @@
       background-position: center;
       background-size: cover;
       display: grid;
-      height: 72vh;
+      height: 90vh;
       justify-content: center;
 
       mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
@@ -57,6 +57,10 @@
 
       overflow: hidden;
       width: 100%;
+
+      @media (orientation: portrait) {
+        height: 72vh;
+      }
 
       @media (max-width: $breakpoint--sm) {
         &-sm {
