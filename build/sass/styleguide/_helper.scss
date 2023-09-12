@@ -12,18 +12,28 @@
 }
 
 
-// Remove representation
+// Hide & show content
 // ---------- ---------- ---------- ---------- ----------
 
 
-// Remove representation sm
+// Hide content sm
 
 @media (max-width: $breakpoint--sm) {
-  .remove-content-sm {
+  .hide-content-sm {
     display: none;
   }
 }
 
+
+// Show content sm
+
+.show-content-sm {
+  display: none;
+
+  @media (max-width: $breakpoint--sm) {
+    display: inline-block;
+  }
+}
 
 // Styleguide-color
 // ---------- ---------- ---------- ---------- ----------
@@ -60,6 +70,14 @@
 
 // Whitespace
 // ---------- ---------- ---------- ---------- ----------
+
+
+// Remove whitespace on first line headline
+
+.column-first-headline {
+  margin-block-start: 0;
+}
+
 
 .whitespace {
   &-top {
@@ -100,7 +118,7 @@
 
 @media (max-width: $breakpoint--sm) {
   .whitespace {
-    &-mobile {
+    &-sm {
       &-top {
         &-24 {
           margin-top: 24px;
@@ -123,11 +141,26 @@
 }
 
 
-// Remove whitespace on first line headline
+// Hide & show content
+// ---------- ---------- ---------- ---------- ----------
 
-h1, h2, h3, h4, h5 {
-  &.column-first-headline {
-    margin-block-start: 0;
+
+// Hide content sm
+
+@media (max-width: $breakpoint--sm) {
+  .hide-content-sm {
+    display: none;
+  }
+}
+
+
+// Show content sm
+
+.show-content-sm {
+  display: none;
+
+  @media (max-width: $breakpoint--sm) {
+    display: inline-block;
   }
 }
 
