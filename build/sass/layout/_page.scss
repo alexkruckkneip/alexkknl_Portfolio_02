@@ -13,7 +13,9 @@ html {
 body.dark {
  background-color: $color-grey-blue-900;
  height: 100%;
+ padding-bottom: 80px;
  padding-top: 80px;
+ overflow-x: hidden;
 }
 
 
