@@ -12,6 +12,19 @@
 }
 
 
+// Remove representation
+// ---------- ---------- ---------- ---------- ----------
+
+
+// Remove representation sm
+
+@media (max-width: $breakpoint--sm) {
+  .remove-content-sm {
+    display: none;
+  }
+}
+
+
 // Styleguide-color
 // ---------- ---------- ---------- ---------- ----------
 
