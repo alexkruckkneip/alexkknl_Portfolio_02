@@ -83,7 +83,7 @@
   place-items: start;
 
   @media (max-width: $breakpoint--sm) {
-    padding: 0;
+    padding: 0 24px;
   }
 }
 
