@@ -57,6 +57,14 @@
 
       overflow: hidden;
       width: 100%;
+
+      @media (max-width: $breakpoint--sm) {
+        &-sm {
+          &-right {
+            background-position: right;
+          }
+        }
+      }
     }
   }
 }
@@ -73,6 +81,10 @@
   overflow: hidden;
   padding: 0 64px;
   place-items: start;
+
+  @media (max-width: $breakpoint--sm) {
+    padding: 0;
+  }
 }
 
 // Hero
