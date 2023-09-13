@@ -3,8 +3,11 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
-// Gate hero animation
+// Gate animation
 // ---------- ---------- ---------- ---------- ----------
+
+
+// Hero
 
 @keyframes gate-hero--top  {
   0% {
@@ -36,6 +39,40 @@
   }
   100% {
     bottom: -100vh;
+  }
+}
+
+
+// Gate background
+
+@keyframes gate-background  {
+  0% {
+    background-color: $color-primary-100;
+  }
+  50% {
+    background-color: $color-primary-400;
+  }
+  100% {
+    background-color: $color-primary-100;
+  }
+}
+@keyframes gate-loaded-move  {
+  0% {
+    opacity: 1;
+    top: 0;
+  }
+  50% {
+    opacity: 0;
+    top: 0;
+  }
+  90% {
+    opacity: 0;
+    top: -100vh;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    top: -100vh;
   }
 }
 

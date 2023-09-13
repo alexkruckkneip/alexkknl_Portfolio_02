@@ -69,11 +69,15 @@ body {
 .gate {
   height: 100vh;
   left: 0;
+  opacity: 1;
   position: fixed;
   top: 0;
   width: 100vw;
   z-index: 200;
 
+  animation: gate-background 6.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 
   // Hero
 
@@ -135,6 +139,10 @@ body {
 
   &.loaded {
     .gate {
+      opacity: 0;
+      top: -100vh;
+      transition: top 0.96s ease-in-out 2s, opacity 0.96s ease-in-out;
+
       &-hero {
         &--top {
           top: -24px;
