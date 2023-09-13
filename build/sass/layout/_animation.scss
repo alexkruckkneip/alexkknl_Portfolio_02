@@ -22,3 +22,16 @@
     bottom: -24px;
   }
 }
+
+
+// Content wrapper animation
+// ---------- ---------- ---------- ---------- ----------
+
+@keyframes gate-hero--top  {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: 0;
+  }
+}
