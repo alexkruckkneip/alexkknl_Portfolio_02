@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<!-- JS -->
 	<script src="/assets/js/jquery-3.3.1.min.js"></script>
-	<script src="/assets/js/percent-preloader.min.js"></script>
 	<script src="/assets/js/main.js"></script>
 	<!-- viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -43,9 +42,9 @@
 
 <!-- Gate loading sequence -->
 
-<div class="gate background-color-primary-400">
+<div class="gate">
 	<div class="gate-hero">
-		<div class="gate-hero--top background-color-grey-blue-800">
+		<div class="gate-hero--top">
 			<div class="column">
 				<div class="text-color-grey-blue-700 text-style-hero-03-uppercase">Alexander KK</div>
 				<div class="text-color-grey-blue-700 text-style-hero-03-uppercase">UX Strategist</div>
@@ -53,9 +52,12 @@
 				<div class="text-color-primary-700 text-style-hero-01-uppercase">Port&shy;folio</div>
 			</div>
 		</div>
-		<div class="gate-hero--bottom background-color-grey-blue-700">
-			<div class="column">
-				<div class="text-color-primary-200 text-style-hero-03-uppercase">25% loaded</div>
+		<div class="gate-hero--bottom">
+			<div class="column preloader">
+				  <div class="inner">
+				    <span class="percentage text-color-primary-200 text-style-hero-03-uppercase"><span id="percentage">8</span>% loaded</span>
+				  </div>
+				  <div class="loader-progress" id="loader-progress"> </div>
 			</div>
 		</div>
 	</div>
