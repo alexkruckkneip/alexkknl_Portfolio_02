@@ -54,6 +54,13 @@ body {
 // Gate layout
 // ---------- ---------- ---------- ---------- ----------
 
+@mixin gate-hero-animation() {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
 .gate {
   height: 100vh;
   left: 0;
@@ -99,39 +106,28 @@ body {
     &--top {
       align-items: flex-end;
       height: 66vh;
-      top: 0;
       width: 100vw;
+
+      animation: gate-hero--top 0.8s;
+      @include gate-hero-animation;
     }
     &--bottom {
       align-items: flex-start;
-      bottom: 0;
       height: 34vh;
       width: 100vw;
+
+      animation: gate-hero--bottom 0.8s;
+      @include gate-hero-animation;
     }
   }
+}
 
 
-  // Animation before all content loaded
+// Animation after all content loaded
 
-  .gate {
-      @mixin gate-hero-animation() {
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-delay: 0.8s;
-      }
+body {
 
-      &-hero {
-
-        &--top {
-          animation: gate-hero--top 0.8s;
-          @include gate-hero-animation;
-        }
-        &--bottom {
-          animation: gate-hero--bottom 0.8s;
-          @include gate-hero-animation;
-        }
-      }
+  &.loaded {
   }
 }
 
