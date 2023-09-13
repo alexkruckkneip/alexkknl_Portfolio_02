@@ -101,20 +101,12 @@ body {
       height: 66vh;
       top: 0;
       width: 100vw;
-
-      .column {
-        margin-bottom: 96px;
-      }
     }
     &--bottom {
       align-items: flex-start;
       bottom: 0;
       height: 34vh;
       width: 100vw;
-
-      .column {
-        margin-top: 64px;
-      }
     }
   }
 }
