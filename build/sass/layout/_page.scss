@@ -66,21 +66,55 @@ body {
   // Hero
 
   &-hero {
+
     &--top, &--bottom {
-      display: block;
+      display: grid;
+      padding-left: 360px;
       position: absolute;
-      left: 0;
+      max-width: 1440px;
+
+      @media (max-width: $breakpoint--4k) {
+        padding-left: 136px;
+      }
+      @media (max-width: $breakpoint--hd) {
+        padding-left: 112px;
+      }
+      @media (max-width: $breakpoint--lg) {
+        padding-left: 112px;
+      }
+      @media (max-width: $breakpoint--md) {
+        padding-left: 64px;
+      }
+      @media (max-width: $breakpoint--md) {
+        padding-left: 64px;
+      }
+      @media (max-width: $breakpoint--xs) {
+        padding-left: 32px;
+      }
+      @media (max-width: $breakpoint--xxs) {
+        padding-left: 24px;
+      }
     }
 
     &--top {
+      align-items: flex-end;
       height: 66vh;
       top: 0;
       width: 100vw;
+
+      .column {
+        margin-bottom: 96px;
+      }
     }
     &--bottom {
-      height: 34vh;
+      align-items: flex-start;
       bottom: 0;
+      height: 34vh;
       width: 100vw;
+
+      .column {
+        margin-top: 64px;
+      }
     }
   }
 }
