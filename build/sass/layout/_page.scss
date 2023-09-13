@@ -80,10 +80,9 @@ body {
   &-hero {
 
     &--top, &--bottom {
-      display: grid;
+      display: flex;
       padding-left: 360px;
-      position: absolute;
-      max-width: 1440px;
+      position: fixed;
 
       @media (max-width: $breakpoint--4k) {
         padding-left: 136px;
@@ -111,6 +110,7 @@ body {
     &--top {
       align-items: flex-end;
       height: 66vh;
+      top: 0;
       width: 100vw;
 
       animation: gate-hero--top 0.8s;
@@ -118,6 +118,7 @@ body {
     }
     &--bottom {
       align-items: flex-start;
+      bottom: 0;
       height: 34vh;
       width: 100vw;
 
@@ -133,6 +134,20 @@ body {
 body {
 
   &.loaded {
+    .gate {
+      &-hero {
+        &--top {
+          top: -24px;
+          animation: gate-hero--top--loaded 1.24s;
+          @include gate-hero-animation;
+        }
+        &--bottom {
+          bottom: -24px;
+          animation: gate-hero--bottom--loaded 1.24s;
+          @include gate-hero-animation;
+        }
+      }
+    }
   }
 }
 
@@ -161,8 +176,8 @@ body {
       width: 100%;
       z-index: 100;
 
-      transition: top 0.48s ease-in-out;
-      transition-delay: 0.96s;
+      transition: top 0.96s ease-in-out;
+      transition-delay: 1.92s;
     }
   }
 }

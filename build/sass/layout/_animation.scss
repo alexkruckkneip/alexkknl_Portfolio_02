@@ -14,12 +14,28 @@
     top: -24px;
   }
 }
+@keyframes gate-hero--top--loaded  {
+  0% {
+    top: -24px;
+  }
+  100% {
+    top: -100vh;
+  }
+}
 @keyframes gate-hero--bottom  {
   0% {
     bottom: 0;
   }
   100% {
     bottom: -24px;
+  }
+}
+@keyframes gate-hero--bottom--loaded  {
+  0% {
+    bottom: -24px;
+  }
+  100% {
+    bottom: -100vh;
   }
 }
 
