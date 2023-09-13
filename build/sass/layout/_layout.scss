@@ -16,33 +16,6 @@
 }
 
 
-// Gate layout
-// ---------- ---------- ---------- ---------- ----------
-
-.gate {
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  z-index: 200;
-
-
-  // Hero
-
-  &-hero {
-    &--top {
-      height: 66vh;
-      width: 100vw;
-    }
-    &--bottom {
-      height: 34vh;
-      width: 100vw;
-    }
-  }
-}
-
-
 // Container
 // ---------- ---------- ---------- ---------- ----------
 

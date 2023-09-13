@@ -51,9 +51,39 @@ body {
 }
 
 
-// Gate loading sequence
+// Gate layout
 // ---------- ---------- ---------- ---------- ----------
 
+.gate {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 200;
+
+
+  // Hero
+
+  &-hero {
+    &--top, &--bottom {
+      display: block;
+      position: absolute;
+      left: 0;
+    }
+
+    &--top {
+      height: 66vh;
+      top: 0;
+      width: 100vw;
+    }
+    &--bottom {
+      height: 34vh;
+      bottom: 0;
+      width: 100vw;
+    }
+  }
+}
 
 
 // Navigation top
