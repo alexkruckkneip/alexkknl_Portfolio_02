@@ -119,6 +119,9 @@ h1, h2, h3, h4, h5 {
 	line-height: 24px;
 	text-decoration: none;
 	text-transform: none;
+  webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 @mixin text-style-p-bold() {
 	font-size: 16px;
