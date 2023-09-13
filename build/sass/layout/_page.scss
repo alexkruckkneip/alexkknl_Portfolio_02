@@ -29,7 +29,7 @@ body {
     top: 100vh;
     width: 100%;
 
-    transition: opacity 2s ease-in-out, top 1.28s ease-in-out;
+    transition: opacity 1.6s ease-in-out, top 0.96s ease-in-out;
   }
 
   &.loaded {
@@ -72,13 +72,24 @@ body {
       -webkit-mask-size: $mask-nav-width;
 
       position: fixed;
-      top: 0;
+      top: -48px;
       width: 100%;
       z-index: 100;
+
+      transition: top 0.48s ease-in-out;
+      transition-delay: 0.96s;
     }
   }
 }
-
+.loaded {
+  .nav {
+    &-wrapper {
+      &-top {
+        top: 0;
+      }
+    }
+  }
+}
 
 // page index.html
 // ---------- ---------- ---------- ---------- ----------
