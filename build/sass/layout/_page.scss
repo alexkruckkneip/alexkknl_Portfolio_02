@@ -6,9 +6,7 @@
 // Html
 // ---------- ---------- ---------- ---------- ----------
 
-html {
-  background-color: $color-grey-blue-900;
-}
+html {}
 
 body {
   height: 100%;
@@ -17,7 +15,7 @@ body {
   overflow-x: hidden;
 
   &.dark {
-    background-color: $color-grey-blue-900;
+    background: $color-grey-blue-850;
   }
 
   // Loading content
@@ -34,9 +32,10 @@ body {
 
   &.loaded {
     .content-wrapper {
+      background: $color-gradient-grey-blue-vertical;
       opacity: 1;
 
-      animation: content-wrapper 1.24s;
+      animation: content-wrapper 1.92s;
       animation-timing-function: ease-in-out;
       animation-iteration-count: 1;
       animation-fill-mode: forwards;
@@ -75,9 +74,19 @@ body {
   width: 100vw;
   z-index: 200;
 
-  animation: gate-background 6.4s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+
+  // Gate background
+
+  &-background {
+    animation: gate-background 6.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    display: block;
+    height: 100vh;
+    opacity: 1;
+    position: fixed;
+    width: 100vw;
+  }
 
   // Hero
 
@@ -139,10 +148,21 @@ body {
 
   &.loaded {
     .gate {
-      animation: gate-loaded 4s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: 1;
-      animation-fill-mode: forwards;
+
+
+      // Gate background
+
+      &-background {
+        animation: gate-background 6.4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        display: block;
+        height: 100vh;
+        opacity: 0;
+        position: fixed;
+        transition: opacity 0.96s ease-in-out;
+        width: 100vw;
+      }
 
       &-hero {
         &--top {
