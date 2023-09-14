@@ -320,6 +320,10 @@ body {
       .button {
         display: inline-block;
         padding: 0 12px;
+
+        &:hover {
+          color: $color-grey-blue-200;
+        }
       }
     }
   }
