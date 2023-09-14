@@ -113,14 +113,17 @@ body {
       fill: url(#svg-gradiant-grey-blue-darker);
       bottom: 0;
     }
-    &--bottom {
-      height: 34vh;
-      bottom: 0;
+  }
+  &--bottom {
+    height: 34vh;
+    bottom: 0;
 
-      svg {
-        fill: url(#svg-gradiant-grey-blue-darker-invert);
-        top: -48px;
-      }
+    animation: gate-gate--bottom 0.8s;
+    @include gate-gate-animation;
+
+    svg {
+      fill: url(#svg-gradiant-grey-blue-darker-invert);
+      top: -64px;
     }
   }
 
@@ -214,6 +217,12 @@ body {
         left: 12px;
         top: -24px;
         animation: gate-gate--top--loaded 1.24s;
+        @include gate-gate-animation;
+      }
+      &--bottom {
+        left: -12px;
+        bottom: -24px;
+        animation: gate-gate--bottom--loaded 1.24s;
         @include gate-gate-animation;
       }
 
