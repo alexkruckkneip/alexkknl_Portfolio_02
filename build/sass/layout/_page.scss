@@ -199,6 +199,17 @@ body {
       animation: gate-hero--bottom 0.8s;
       @include gate-hero-animation;
     }
+
+    //  Text styles
+    .text-style-hero-03-uppercase {
+      color: $color-grey-blue-700;
+    }
+    .text-style-hero-01-uppercase {
+      color: $color-primary-700;
+    }
+    .text-style-hero-03-uppercase, .text-style-hero-01-uppercase {
+      transition: color 0.96s ease-in-out;
+    }
   }
 }
 
@@ -249,6 +260,14 @@ body {
           bottom: -24px;
           animation: gate-hero--bottom--loaded 1.24s;
           @include gate-hero-animation;
+        }
+
+        //  Text styles
+        .text-style-hero-03-uppercase {
+          color: $color-grey-blue-200;
+        }
+        .text-style-hero-01-uppercase {
+          color: $color-primary-200;
         }
       }
     }
