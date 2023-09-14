@@ -131,6 +131,27 @@
 }
 
 
+// Nav
+// ---------- ---------- ---------- ---------- ----------
+
+@keyframes button-hover  {
+  0% {
+    color: $color-grey-blue-600;
+  }
+  100% {
+    color: $color-grey-blue-200;
+  }
+}
+@keyframes button-hover-revert  {
+  0% {
+    color: $color-grey-blue-200;
+  }
+  100% {
+    color: $color-grey-blue-600;
+  }
+}
+
+
 // Content wrapper animation
 // ---------- ---------- ---------- ---------- ----------
 

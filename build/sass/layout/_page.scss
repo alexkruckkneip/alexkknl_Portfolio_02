@@ -287,6 +287,12 @@ body {
 // Navigation top
 // ---------- ---------- ---------- ---------- ----------
 
+@mixin button-hover-animation {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .nav {
   background: $color-grey-blue-850;
   background-position: center;
@@ -318,12 +324,26 @@ body {
       padding: 0 12px;
 
       .button {
-        display: inline-block;
+        align-items: center;
+        color: $color-grey-blue-600;
+        display: flex;
+        height: 100%;
         padding: 0 12px;
 
-        &:hover {
-          color: $color-grey-blue-200;
+        &.inactive {
+          animation: button-hover-revert 0.8s;
+          cursor: pointer;
+          @include  button-hover-animation;
+
+          &:hover {
+            animation: button-hover 0.8s;
+            @include  button-hover-animation;
+          }
         }
+        &.active {
+          color: $color-primary-200;
+        }
+
       }
     }
   }
