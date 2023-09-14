@@ -113,6 +113,11 @@ body {
       filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
       bottom: 0;
     }
+    &--line {
+      animation: gate-line 6.4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
   }
   &--bottom {
     height: 34vh;
