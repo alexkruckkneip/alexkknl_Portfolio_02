@@ -79,18 +79,20 @@ body {
 
   &--top {
     align-items: center;
-    align-content: flex-end;
     display: grid;
     height: 66vh;
+    left: 0;
     overflow: hidden;
     position: fixed;
+    top: 0;
     width: 100vw;
     z-index: 201;
 
     svg {
-      display: block;
-      height: $mask-gate-height;
-      width: $mask-gate-width;
+      filter: drop-shadow(0px 0px 12px black);
+      fill: url(#svg-gradiant-grey-blue-darker);
+      // height: $mask-gate-width;
+      // width: $mask-gate-width;
     }
   }
 
