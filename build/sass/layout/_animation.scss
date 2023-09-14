@@ -43,6 +43,50 @@
 }
 
 
+// Gate
+
+@keyframes gate-gate--top  {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left:12px;
+    top: -24px;
+  }
+}
+@keyframes gate-gate--top--loaded  {
+  0% {
+    left:12px;
+    top: -24px;
+  }
+  100% {
+    left:12px;
+    top: -100vh;
+  }
+}
+@keyframes gate-gate--bottom  {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  100% {
+    left: -12px;
+    bottom: -24px;
+  }
+}
+@keyframes gate-gate--bottom--loaded  {
+  0% {
+    left: -12px;
+    bottom: -24px;
+  }
+  100% {
+    left: -12px;
+    bottom: -100vh;
+  }
+}
+
+
 // Gate background
 
 @keyframes gate-background  {
