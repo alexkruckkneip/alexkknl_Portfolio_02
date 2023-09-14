@@ -148,6 +148,26 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
+// Hide content md
+
+@media (max-width: $breakpoint--md) {
+  .hide-content-md {
+    display: none;
+  }
+}
+
+
+// Show content md
+
+.show-content-md {
+  display: none;
+
+  @media (max-width: $breakpoint--md) {
+    display: block;
+  }
+}
+
+
 // Hide content sm
 
 @media (max-width: $breakpoint--sm) {
@@ -163,7 +183,7 @@
   display: none;
 
   @media (max-width: $breakpoint--sm) {
-    display: inline-block;
+    display: block;
   }
 }
 
