@@ -82,13 +82,14 @@ body {
     align-content: flex-end;
     display: grid;
     height: 66vh;
+    overflow: hidden;
     position: fixed;
     width: 100vw;
     z-index: 201;
-    
+
     svg {
-      filter: drop-shadow(0px 0px 12px black);
-      fill: url(#svg-gradiant--grey-dark) #4E5457;
+      display: block;
+      height: 
     }
   }
 
