@@ -196,6 +196,14 @@ body {
       animation-fill-mode: forwards;
       animation-delay: 4s;
 
+      // Gate
+
+      &--top {
+        top: -24px;
+        animation: gate-gate--top--loaded 1.24s;
+        @include gate-gate-animation;
+      }
+
       // Gate background
 
       &-background {
