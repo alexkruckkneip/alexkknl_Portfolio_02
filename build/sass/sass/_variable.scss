@@ -15,8 +15,12 @@ $breakpoint--xs: 420px;
 $breakpoint--xxs: 320px;
 
 
-// Mask Gate
+// Gate
 // ---------- ---------- ---------- ---------- ----------
+
+$gate-slit-half-height: -28px;
+$gate-slit-half-offset: 8px;
+$gate-slit-half-negative-offset: -8px;
 
 $mask-gate-width: 9840px;
 $mask-gate-height: 4772px;

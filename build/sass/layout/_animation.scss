@@ -14,12 +14,12 @@
     top: 0;
   }
   100% {
-    top: -24px;
+    top: $gate-slit-half-height;
   }
 }
 @keyframes gate-hero--top--loaded  {
   0% {
-    top: -24px;
+    top: $gate-slit-half-height;
   }
   100% {
     top: -100vh;
@@ -30,12 +30,12 @@
     bottom: 0;
   }
   100% {
-    bottom: -24px;
+    bottom: $gate-slit-half-height;
   }
 }
 @keyframes gate-hero--bottom--loaded  {
   0% {
-    bottom: -24px;
+    bottom: $gate-slit-half-height;
   }
   100% {
     bottom: -100vh;
@@ -51,17 +51,17 @@
     top: 0;
   }
   100% {
-    left:12px;
-    top: -24px;
+    left:$gate-slit-half-offset;
+    top: $gate-slit-half-height;
   }
 }
 @keyframes gate-gate--top--loaded  {
   0% {
-    left:12px;
-    top: -24px;
+    left:$gate-slit-half-offset;
+    top: $gate-slit-half-height;
   }
   100% {
-    left:12px;
+    left:$gate-slit-half-offset;
     top: -100vh;
   }
 }
@@ -71,17 +71,17 @@
     bottom: 0;
   }
   100% {
-    left: -12px;
-    bottom: -24px;
+    left: $gate-slit-half-negative-offset;
+    bottom: $gate-slit-half-height;
   }
 }
 @keyframes gate-gate--bottom--loaded  {
   0% {
-    left: -12px;
-    bottom: -24px;
+    left: $gate-slit-half-negative-offset;
+    bottom: $gate-slit-half-height;
   }
   100% {
-    left: -12px;
+    left: $gate-slit-half-negative-offset;
     bottom: -100vh;
   }
 }

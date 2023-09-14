@@ -91,7 +91,6 @@ body {
   }
   &--top, &--bottom {
     display: block;
-    left: 0;
     position: fixed;
     width: 100vw;
     z-index: 199;
@@ -102,6 +101,7 @@ body {
   }
   &--top {
     height: 66vh;
+    left: 0;
     top: 0;
 
     animation: gate-gate--top 0.8s;
@@ -120,6 +120,7 @@ body {
   }
   &--bottom {
     height: 34vh;
+    left: 0;
     bottom: 0;
 
     animation: gate-gate--bottom 0.8s;
@@ -192,7 +193,7 @@ body {
     &--bottom {
       align-items: flex-start;
       bottom: 0;
-      height: 34vh;
+      height: 31vh;
       width: 100vw;
 
       animation: gate-hero--bottom 0.8s;
@@ -218,14 +219,14 @@ body {
       // Gate
 
       &--top {
-        left: 12px;
-        top: -24px;
+        left: $gate-slit-half-offset;
+        top: $gate-slit-half-height;
         animation: gate-gate--top--loaded 1.24s;
         @include gate-gate-animation;
       }
       &--bottom {
-        left: -12px;
-        bottom: -24px;
+        left: $gate-slit-half-negative-offset;
+        bottom: $gate-slit-half-height;
         animation: gate-gate--bottom--loaded 1.24s;
         @include gate-gate-animation;
       }
