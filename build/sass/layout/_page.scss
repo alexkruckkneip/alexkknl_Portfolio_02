@@ -85,8 +85,9 @@ body {
   // Gate
 
   &-row {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &--top, &--bottom {
     display: block;
