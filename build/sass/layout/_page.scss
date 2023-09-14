@@ -270,6 +270,15 @@ body {
           color: $color-primary-200;
         }
       }
+      &-light {
+        //  Text styles
+        .text-style-hero-03-uppercase {
+          color: $color-grey-blue-800;
+        }
+        .text-style-hero-01-uppercase {
+          color: $color-primary-800;
+        }
+      }
     }
   }
 }
