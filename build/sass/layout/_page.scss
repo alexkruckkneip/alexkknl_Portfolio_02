@@ -88,10 +88,12 @@ body {
     z-index: 201;
 
     svg {
-      filter: drop-shadow(0px 0px 12px black);
+      filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
       fill: url(#svg-gradiant-grey-blue-darker);
-      // height: $mask-gate-width;
-      // width: $mask-gate-width;
+
+      bottom: 0;
+      left: -1*($mask-gate-width/2);
+      position: absolute;
     }
   }
 
