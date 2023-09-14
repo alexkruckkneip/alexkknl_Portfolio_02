@@ -152,7 +152,7 @@
 
 @media (max-width: $breakpoint--md) {
   .hide-content-md {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -163,7 +163,7 @@
   display: none;
 
   @media (max-width: $breakpoint--md) {
-    display: block;
+    display: block !important;
   }
 }
 

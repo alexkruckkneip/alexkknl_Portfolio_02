@@ -291,9 +291,8 @@ body {
   background: $color-grey-blue-850;
   background-position: center;
   background-size: cover;
-  display: grid;
+  display: block;
   height: 48px;
-  justify-content: center;
 
   mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
   -webkit-mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
@@ -310,7 +309,16 @@ body {
 
   &-wrapper {
     &-top {
+      align-items: center;
+      align-content: center;
+      display: flex;
+      justify-content: start;
+      flex-wrap: nowrap;
+      height: 100%;
 
+      div {
+        display: inline-block;
+      }
     }
   }
 }
