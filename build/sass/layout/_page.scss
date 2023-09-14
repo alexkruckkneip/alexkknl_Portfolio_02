@@ -217,18 +217,18 @@ body {
 
       // Gate
 
-      // &--top {
-      //   left: 12px;
-      //   top: -24px;
-      //   animation: gate-gate--top--loaded 1.24s;
-      //   @include gate-gate-animation;
-      // }
-      // &--bottom {
-      //   left: -12px;
-      //   bottom: -24px;
-      //   animation: gate-gate--bottom--loaded 1.24s;
-      //   @include gate-gate-animation;
-      // }
+      &--top {
+        left: 12px;
+        top: -24px;
+        animation: gate-gate--top--loaded 1.24s;
+        @include gate-gate-animation;
+      }
+      &--bottom {
+        left: -12px;
+        bottom: -24px;
+        animation: gate-gate--bottom--loaded 1.24s;
+        @include gate-gate-animation;
+      }
 
       // Gate background
 
