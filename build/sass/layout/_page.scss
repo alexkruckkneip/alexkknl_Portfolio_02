@@ -90,7 +90,7 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    z-index: 201;
+    z-index: 199;
 
     svg {
       filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
@@ -115,6 +115,7 @@ body {
     position: absolute;
     top: 0;
     width: 100vw;
+    z-index: 198;
   }
 
   // Hero
@@ -125,6 +126,7 @@ body {
       display: flex;
       padding-left: 360px;
       position: fixed;
+      z-index: 201;
 
       @media (max-width: $breakpoint--4k) {
         padding-left: 136px;
