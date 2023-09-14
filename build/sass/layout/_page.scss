@@ -77,9 +77,14 @@ body {
 
   // Gate
 
+  &-row {
+    display: grid;
+    place-items: center;
+  }
+
   &--top {
     align-items: center;
-    display: grid;
+    display: block;
     height: 66vh;
     left: 0;
     position: fixed;
@@ -92,9 +97,9 @@ body {
       fill: url(#svg-gradiant-grey-blue-darker);
 
       bottom: 0;
-      left: -1*($mask-gate-width/2);
       position: absolute;
     }
+
   }
 
 
