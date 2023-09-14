@@ -87,6 +87,21 @@
 }
 
 
+// Gate line
+
+@keyframes gate-line  {
+  0% {
+    lill: $color-primary-200;
+  }
+  50% {
+    fill: $color-primary-500;
+  }
+  100% {
+    fill: $color-primary-200;
+  }
+}
+
+
 // Gate background
 
 @keyframes gate-background  {
