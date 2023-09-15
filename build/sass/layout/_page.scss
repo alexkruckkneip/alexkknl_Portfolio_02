@@ -294,9 +294,9 @@ body {
 }
 
 .nav {
-  background: $color-grey-blue-850;
-  background-position: center;
-  background-size: cover;
+  // background: $color-grey-blue-850;
+  // background-position: center;
+  // background-size: cover;
   display: block;
   height: 64px;
 
@@ -304,10 +304,10 @@ body {
     height: 48px;
   }
 
-  mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
-  -webkit-mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
-  mask-size: $mask-nav-width;
-  -webkit-mask-size: $mask-nav-width;
+  // mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
+  // -webkit-mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
+  // mask-size: $mask-nav-width;
+  // -webkit-mask-size: $mask-nav-width;
 
   position: fixed;
   top: -48px;
@@ -353,6 +353,12 @@ body {
         }
         &.active {
           color: $color-grey-blue-200;
+        }
+
+        .row {
+          position: fixed;
+          top: 48px;
+          z-index: 202;
         }
 
       }
