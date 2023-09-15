@@ -50,6 +50,10 @@
       height: 88vh;
       justify-content: center;
 
+      @media (max-width: $breakpoint--lg) {
+        justify-content: start;
+      }
+
       mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
     	mask-size: $mask-gate-width;
