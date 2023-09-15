@@ -298,7 +298,11 @@ body {
   background-position: center;
   background-size: cover;
   display: block;
-  height: 48px;
+  height: 64px;
+
+  @media (max-width: $breakpoint--hd) {
+    height: 48px;
+  }
 
   mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
   -webkit-mask: url(../img/svg/svg--shape-nav--top.svg) no-repeat right bottom;
@@ -329,6 +333,11 @@ body {
         display: flex;
         height: 100%;
         padding: 0 12px;
+
+
+        @media (max-width: $breakpoint--hd) {
+          font-size: 16px;
+        }
 
         &.inactive {
           animation: button-hover-revert 0.8s;
