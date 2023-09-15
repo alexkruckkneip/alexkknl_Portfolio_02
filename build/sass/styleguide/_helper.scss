@@ -11,30 +11,6 @@
   width: 112px;
 }
 
-
-// Hide & show content
-// ---------- ---------- ---------- ---------- ----------
-
-
-// Hide content sm
-
-@media (max-width: $breakpoint--sm) {
-  .hide-content-sm {
-    display: none;
-  }
-}
-
-
-// Show content sm
-
-.show-content-sm {
-  display: none;
-
-  @media (max-width: $breakpoint--sm) {
-    display: inline-block;
-  }
-}
-
 // Styleguide-color
 // ---------- ---------- ---------- ---------- ----------
 
