@@ -136,7 +136,7 @@
 // Show content md
 
 .show-content-md {
-  display: none;
+  display: none !important;
 
   @media (max-width: $breakpoint--md) {
     display: block !important;

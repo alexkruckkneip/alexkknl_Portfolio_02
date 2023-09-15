@@ -329,7 +329,7 @@ body {
 
       .button {
         align-items: center;
-        color: $color-grey-blue-600;
+        color: $color-primary-200;
         display: inline-block;
         height: 24px;
         padding: 20px 24px;
@@ -352,7 +352,7 @@ body {
           }
         }
         &.active {
-          color: $color-primary-200;
+          color: $color-grey-blue-200;
         }
 
       }
