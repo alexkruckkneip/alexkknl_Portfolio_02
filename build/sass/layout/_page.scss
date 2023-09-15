@@ -330,13 +330,15 @@ body {
       .button {
         align-items: center;
         color: $color-grey-blue-600;
-        display: flex;
-        height: 100%;
-        padding: 0 12px;
+        display: inline-block;
+        height: 24px;
+        padding: 20px 24px;
 
 
         @media (max-width: $breakpoint--hd) {
           font-size: 16px;
+          height: 24px;
+          padding: 12px 12px;
         }
 
         &.inactive {
