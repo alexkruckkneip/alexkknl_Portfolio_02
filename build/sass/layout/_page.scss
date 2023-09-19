@@ -252,12 +252,12 @@ body {
 
       &-hero {
         &--top {
-          top: -24px;
+          top: $gate-slit-half-height;
           animation: gate-hero--top--loaded 1.24s;
           @include gate-hero-animation;
         }
         &--bottom {
-          bottom: -24px;
+          bottom: $gate-slit-half-height;
           animation: gate-hero--bottom--loaded 1.24s;
           @include gate-hero-animation;
         }
@@ -360,28 +360,29 @@ body {
           color: $color-grey-blue-200;
         }
 
-        .nav-item-list {
-          position: fixed;
+      }
+      .nav-item-list {
+        position: fixed;
+        padding-top: 96px;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        z-index: 200;
+
+        @media (max-width: $breakpoint--hd) {
           padding-top: 64px;
-          left: 0;
-          top: 0;
-          width: 100vw;
-          z-index: 200;
-
-          @media (max-width: $breakpoint--hd) {
-            padding-top: 48px;
-          }
-
-          svg {
-            z-index: auto;
-          }
-          h3, h4 {
-            position: relative;
-            z-index: 210;
-          }
-
         }
 
+        svg {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          z-index: auto;
+        }
+        h3, h4 {
+          position: relative;
+          z-index: 210;
+        }
       }
     }
   }
