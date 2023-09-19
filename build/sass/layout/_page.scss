@@ -428,6 +428,18 @@ body {
       position: relative;
       z-index: 210;
     }
+    .nav-list-hide {
+      display: none;
+      height: 100vh;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+
+      &.nav-list-open {
+        display: block;
+      }
+    }
   }
 }
 .loaded {
