@@ -36,3 +36,19 @@
  	loadscreen.style.transition = "0.15s";
  	loadscreen.style.width = Width + "%";
  }, 20);
+
+
+// ---------- ---------- ---------- ---------- ----------
+// Open nav list
+// ---------- ---------- ---------- ---------- ----------
+
+
+// Nav list 02
+// ---------- ---------- ---------- ---------- ----------
+
+$(function() {
+  $(".nav-item-02").click(function() {
+    $(".nav-item-02").toggleClass("nav-item-list--open");
+    $(".nav-item-list-02").toggleClass("nav-item-list--open");
+ });
+});
