@@ -372,7 +372,7 @@ body {
     z-index: 200;
 
     @media (max-width: $breakpoint--hd) {
-      padding-top: 64px;
+      padding: 64px 24px 64px 104px;
     }
 
     svg {
