@@ -374,6 +374,8 @@ body {
     z-index: 200;
 
     .scroll {
+      display: block;
+      position: relative;
       margin-bottom: 64px;
       max-height: 72vh;
       overflow-y: scroll;

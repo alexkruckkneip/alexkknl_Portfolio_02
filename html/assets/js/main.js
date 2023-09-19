@@ -70,6 +70,5 @@ $(function() {
     $(".nav-item-list-03").removeClass("nav-item-list--open");
     $(".nav-item-02").toggleClass("nav-item-list--open");
     $(".nav-item-list-02").toggleClass("nav-item-list--open");
-    $("body").toggleClass("nav-item-list--open");
  });
 });
