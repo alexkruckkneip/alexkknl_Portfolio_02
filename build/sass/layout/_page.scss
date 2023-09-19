@@ -316,7 +316,7 @@ body {
     filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
     position: absolute;
     right: 0;
-    z-index: 212;
+    z-index: 200;
   }
 
   &-wrapper {
@@ -331,14 +331,14 @@ body {
       position: absolute;
       width: 100%;
 
-      .button {
+      .nav-item {
         align-items: center;
         color: $color-primary-200;
         display: inline-block;
         height: 24px;
         padding: 20px 24px;
         position: relative;
-        z-index: 210;
+        z-index: 211;
 
         @media (max-width: $breakpoint--hd) {
           font-size: 16px;
