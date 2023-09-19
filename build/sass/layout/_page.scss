@@ -360,7 +360,7 @@ body {
           }
         }
         &.active {
-          color: $color-grey-blue-200;
+          color: $color-primary-200;
         }
 
       }
@@ -407,7 +407,7 @@ body {
       .scroll {
 
         padding-left: 304px;
-        
+
         @media (max-width: $breakpoint--hd) {
           margin-bottom: 48px;
           padding: 64px 24px 0px 212px;
