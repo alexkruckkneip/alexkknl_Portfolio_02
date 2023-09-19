@@ -435,8 +435,9 @@ body {
       position: fixed;
       top: 0;
       width: 100vw;
+      z-index: 0;
 
-      &.nav-list-open {
+      &.nav-item-list--open {
         display: block;
       }
     }
