@@ -361,29 +361,29 @@ body {
         }
 
       }
-      .nav-item-list {
-        position: fixed;
-        padding-top: 96px;
-        left: 0;
-        top: 0;
-        width: 100vw;
-        z-index: 200;
+    }
+  }
+  .nav-item-list {
+    position: fixed;
+    padding-top: 96px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 200;
 
-        @media (max-width: $breakpoint--hd) {
-          padding-top: 64px;
-        }
+    @media (max-width: $breakpoint--hd) {
+      padding-top: 64px;
+    }
 
-        svg {
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          z-index: auto;
-        }
-        h3, h4 {
-          position: relative;
-          z-index: 210;
-        }
-      }
+    svg {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: auto;
+    }
+    h3, h4 {
+      position: relative;
+      z-index: 210;
     }
   }
 }
