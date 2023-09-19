@@ -364,11 +364,11 @@ body {
     }
   }
   .nav-item-list {
-    position: fixed;
-    padding-top: 96px;
+    position: absolute;
+    padding: 96px 24px 64px 144px;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 200;
 
     @media (max-width: $breakpoint--hd) {
@@ -377,7 +377,7 @@ body {
 
     svg {
       position: absolute;
-      right: 0;
+      right: 24px;
       bottom: 0;
       z-index: auto;
     }
