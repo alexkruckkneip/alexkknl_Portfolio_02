@@ -48,7 +48,18 @@
 
 $(function() {
   $(".nav-item-02").click(function() {
+    $(".nav-item-03").removeClass("nav-item-list--open");
+    $(".nav-item-list-03").removeClass("nav-item-list--open");
     $(".nav-item-02").toggleClass("nav-item-list--open");
     $(".nav-item-list-02").toggleClass("nav-item-list--open");
+ });
+});
+
+$(function() {
+  $(".nav-item-03").click(function() {
+    $(".nav-item-02").removeClass("nav-item-list--open");
+    $(".nav-item-list-02").removeClass("nav-item-list--open");
+    $(".nav-item-03").toggleClass("nav-item-list--open");
+    $(".nav-item-list-03").toggleClass("nav-item-list--open");
  });
 });
