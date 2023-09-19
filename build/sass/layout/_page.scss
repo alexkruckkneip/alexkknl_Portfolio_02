@@ -228,7 +228,7 @@ body {
       animation-timing-function: ease-in-out;
       animation-iteration-count: 1;
       animation-fill-mode: forwards;
-      animation-delay: 4s;
+      animation-delay: 1s;
 
       // Gate
 
@@ -377,9 +377,10 @@ body {
       display: block;
       position: relative;
       margin-bottom: 64px;
-      max-height: 72vh;
+      max-height: calc(80vh - 64px);;
       overflow-y: scroll;
       padding: 96px 24px 0 144px;
+      z-index: 200;
     }
 
     &-02 {
@@ -414,6 +415,7 @@ body {
 
     svg {
       right: -104px;
+      z-index: 0;
     }
 
     &--open {
