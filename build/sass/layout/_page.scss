@@ -351,7 +351,7 @@ body {
           cursor: pointer;
           @include  button-hover-animation;
 
-          &:hover {
+          &:hover, &.nav-item-list--open {
             animation: button-hover 0.8s;
             @include  button-hover-animation;
           }
