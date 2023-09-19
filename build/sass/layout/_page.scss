@@ -366,10 +366,15 @@ body {
   .nav-item-list {
     position: absolute;
     padding: 96px 24px 64px 144px;
-    left: 0;
-    top: 0;
+    top: -720px;
     width: 100%;
     z-index: 200;
+
+    transition: top 1.28s ease-in-out;
+
+    &--open {
+      top: 0;
+    }
 
     @media (max-width: $breakpoint--hd) {
       padding: 64px 24px 64px 104px;
