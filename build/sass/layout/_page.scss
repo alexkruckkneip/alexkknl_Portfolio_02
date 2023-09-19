@@ -379,8 +379,13 @@ body {
       transition: top 1.98s ease-in-out;
 
       @media (max-width: $breakpoint--hd) {
-        padding: 64px 24px 64px 104px;
+        padding: 64px 24px 64px 96px;
       }
+      @media (max-width: $breakpoint--md) {
+        top: -960px;
+        padding: 64px 56px;
+      }
+
 
       svg {
         right: 48px;
