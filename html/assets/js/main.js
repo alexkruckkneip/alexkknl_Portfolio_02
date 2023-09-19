@@ -47,6 +47,17 @@
 // ---------- ---------- ---------- ---------- ----------
 
 $(function() {
+  $(".nav-item-01").click(function() {
+    $(".nav-item-03").removeClass("nav-item-list--open");
+    $(".nav-item-list-03").removeClass("nav-item-list--open");
+    $(".nav-item-02").removeClass("nav-item-list--open");
+    $(".nav-item-list-02").removeClass("nav-item-list--open");
+    $(".nav-list-hide").removeClass("nav-item-list--open");
+    $("body").removeClass("nav-item-list--open");
+ });
+});
+
+$(function() {
   $(".nav-item-02").click(function() {
     $(".nav-item-03").removeClass("nav-item-list--open");
     $(".nav-item-list-03").removeClass("nav-item-list--open");
@@ -74,17 +85,6 @@ $(function() {
     $(".nav-item-list-02").toggleClass("nav-item-list--open");
     $(".nav-list-hide").toggleClass("nav-item-list--open");
     $("body").toggleClass("nav-item-list--open");
- });
-});
-
-$(function() {
-  $(".nav-item-01").click(function() {
-    $(".nav-item-03").removeClass("nav-item-list--open");
-    $(".nav-item-list-03").removeClass("nav-item-list--open");
-    $(".nav-item-02").removeClass("nav-item-list--open");
-    $(".nav-item-list-02").removeClass("nav-item-list--open");
-    $(".nav-list-hide").toggleClass("nav-item-list--open");
-    $("body").removeClass("nav-item-list--open");
  });
 });
 
