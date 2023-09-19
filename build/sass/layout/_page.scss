@@ -316,7 +316,7 @@ body {
     filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
     position: absolute;
     right: 0;
-    z-index: 202;
+    z-index: 212;
   }
 
   &-wrapper {
@@ -329,7 +329,7 @@ body {
       justify-content: start;
       padding: 0 12px;
       position: absolute;
-      z-index: 203;
+      width: 100%;
 
       .button {
         align-items: center;
@@ -337,7 +337,8 @@ body {
         display: inline-block;
         height: 24px;
         padding: 20px 24px;
-
+        position: relative;
+        z-index: 210;
 
         @media (max-width: $breakpoint--hd) {
           font-size: 16px;
@@ -359,10 +360,26 @@ body {
           color: $color-grey-blue-200;
         }
 
-        .row {
-          position: absolute;
-          top: 48px;
-          z-index: 202;
+        .nav-item-list {
+          position: fixed;
+          padding-top: 64px;
+          left: 0;
+          top: 0;
+          width: 100vw;
+          z-index: 200;
+
+          @media (max-width: $breakpoint--hd) {
+            padding-top: 48px;
+          }
+
+          svg {
+            z-index: auto;
+          }
+          h3, h4 {
+            position: relative;
+            z-index: 210;
+          }
+
         }
 
       }
