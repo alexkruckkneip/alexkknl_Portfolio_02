@@ -376,8 +376,11 @@ body {
 
     &-02 {
       top: -720px;
-
       transition: top 1.98s ease-in-out;
+
+      @media (max-width: $breakpoint--hd) {
+        padding: 64px 24px 64px 104px;
+      }
 
       svg {
         right: 48px;
@@ -386,8 +389,11 @@ body {
     &-03 {
       top: -320px;
       padding-left: 304px;
-
       transition: top 1.28s ease-in-out;
+
+      @media (max-width: $breakpoint--hd) {
+        padding: 64px 24px 48px 212px;
+      }
 
       svg {
         right: 176px;
@@ -398,9 +404,6 @@ body {
       top: 0;
     }
 
-    @media (max-width: $breakpoint--hd) {
-      padding: 64px 24px 64px 104px;
-    }
     h3, h4 {
       position: relative;
       z-index: 210;
