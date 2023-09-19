@@ -17,6 +17,9 @@ body {
   &.dark {
     background: $color-grey-blue-850;
   }
+  &.nav-item-list--open {
+    overflow-y: hidden;
+  }
 
   // Loading content
 
