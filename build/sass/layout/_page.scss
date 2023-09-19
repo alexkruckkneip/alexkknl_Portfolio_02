@@ -365,30 +365,33 @@ body {
   }
   .nav-item-list {
     position: absolute;
-    padding: 96px 24px 64px 144px;
+    padding: 0;
     top: -720px;
     width: 100%;
     z-index: 200;
 
-    svg {
-      right: 48px;
+    .scroll {
+      margin-bottom: 64px;
+      max-height: 72vh;
+      overflow-y: scroll;
+      padding: 96px 24px 0 144px;
     }
 
     &-02 {
       top: -720px;
       transition: top 1.98s ease-in-out;
 
-      @media (max-width: $breakpoint--hd) {
-        padding: 64px 24px 64px 96px;
+      .scroll {
+        @media (max-width: $breakpoint--hd) {
+          padding: 64px 24px 0 96px;
+        }
+        @media (max-width: $breakpoint--md) {
+          padding: 64px 56px 0 56px;
+        }
       }
+
       @media (max-width: $breakpoint--md) {
         top: -960px;
-        padding: 64px 56px;
-      }
-
-
-      svg {
-        right: 48px;
       }
     }
     &-03 {
@@ -396,13 +399,16 @@ body {
       padding-left: 304px;
       transition: top 1.28s ease-in-out;
 
-      @media (max-width: $breakpoint--hd) {
-        padding: 64px 24px 48px 212px;
+      .scroll {
+        @media (max-width: $breakpoint--hd) {
+          margin-bottom: 48px;
+          padding: 64px 24px 0px 212px;
+        }
       }
+    }
 
-      svg {
-        right: 176px;
-      }
+    svg {
+      right: -104px;
     }
 
     &--open {
