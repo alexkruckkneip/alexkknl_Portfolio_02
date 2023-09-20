@@ -3,6 +3,16 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
+// Mixins
+// ---------- ---------- ---------- ---------- ----------
+
+@mixin button-hover-animation {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
 // Gate animation
 // ---------- ---------- ---------- ---------- ----------
 
@@ -174,14 +184,14 @@
     border-bottom: 1px solid $color-primary-200;
   }
   100% {
-    color: $color-primary-50;
-    border-bottom: 1px solid $color-primary-50;
+    color: $color-primary-100;
+    border-bottom: 1px solid $color-primary-100;
   }
 }
 @keyframes link-hover-revert  {
   0% {
-    color: $color-primary-50;
-    border-bottom: 1px solid $color-primary-50;
+    color: $color-primary-100;
+    border-bottom: 1px solid $color-primary-100;
   }
   100% {
     color: $color-primary-200;

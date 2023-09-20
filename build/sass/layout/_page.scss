@@ -290,12 +290,6 @@ body {
 // Navigation top
 // ---------- ---------- ---------- ---------- ----------
 
-@mixin button-hover-animation {
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 .nav {
   display: block;
   height: 64px;
