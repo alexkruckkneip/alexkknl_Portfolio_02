@@ -163,3 +163,28 @@
     top: 0;
   }
 }
+
+
+// Link
+// ---------- ---------- ---------- ---------- ----------
+
+@keyframes link-hover  {
+  0% {
+    color: $color-primary-200;
+    border-bottom: 1px solid $color-primary-200;
+  }
+  100% {
+    color: $color-primary-50;
+    border-bottom: 1px solid $color-primary-50;
+  }
+}
+@keyframes link-hover-revert  {
+  0% {
+    color: $color-primary-50;
+    border-bottom: 1px solid $color-primary-50;
+  }
+  100% {
+    color: $color-primary-200;
+    border-bottom: 1px solid $color-primary-200;
+  }
+}
