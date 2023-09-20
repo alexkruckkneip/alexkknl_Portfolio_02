@@ -393,6 +393,9 @@ body {
         @media (max-width: $breakpoint--md) {
           padding: 64px 56px 0 56px;
         }
+        @media (max-width: $breakpoint--xs) {
+          padding: 64px 24px 0 24px;
+        }
       }
 
       @media (max-width: $breakpoint--md) {
