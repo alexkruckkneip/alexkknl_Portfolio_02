@@ -331,6 +331,7 @@ body {
       .nav-item {
         align-items: center;
         color: $color-primary-200;
+        cursor: pointer;
         display: inline-block;
         height: 24px;
         padding: 20px 24px;
@@ -345,7 +346,6 @@ body {
 
         &.inactive {
           animation: button-hover-revert 0.8s;
-          cursor: pointer;
           @include  button-hover-animation;
 
           &:hover, &.nav-item-list--open {

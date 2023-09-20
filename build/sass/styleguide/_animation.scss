@@ -146,18 +146,18 @@
 
 @keyframes button-hover  {
   0% {
-    color: $color-grey-blue-600;
+    color: $color-grey-blue-300;
   }
   100% {
-    color: $color-grey-blue-200;
+    color: $color-grey-blue-100;
   }
 }
 @keyframes button-hover-revert  {
   0% {
-    color: $color-grey-blue-200;
+    color: $color-grey-blue-100;
   }
   100% {
-    color: $color-grey-blue-600;
+    color: $color-grey-blue-300;
   }
 }
 
