@@ -1,4 +1,4 @@
-// ---------- ---------- ---------- ---------- ----------
+ // ---------- ---------- ---------- ---------- ----------
 // Page
 // ---------- ---------- ---------- ---------- ----------
 
@@ -344,7 +344,7 @@ body {
           padding: 12px 12px;
         }
 
-        &.inactive {
+        &.inactive, &.inactive a {
           animation: button-hover-revert 0.8s;
           @include  button-hover-animation;
 
