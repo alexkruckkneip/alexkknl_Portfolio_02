@@ -244,6 +244,13 @@
       @media (max-width: $breakpoint--md) {
         break-before: auto;
       }
+      &-off {
+        &-lg {
+          @media (max-width: $breakpoint--lg) {
+            break-before: auto;
+          }
+        }
+      }
     }
   }
 }
