@@ -164,7 +164,7 @@
       @media (max-width: $breakpoint--lg) {
         grid-template-columns: 1fr 1fr;
       }
-      @media (max-width: $breakpoint--sm) {
+      @media (max-width: $breakpoint--md) {
         grid-template-columns: 1fr;
       }
     }
@@ -178,7 +178,7 @@
       @media (max-width: $breakpoint--lg) {
         grid-template-columns: 1fr 1fr;
       }
-      @media (max-width: $breakpoint--sm) {
+      @media (max-width: $breakpoint--md) {
         grid-template-columns: 1fr;
       }
     }
@@ -192,7 +192,7 @@
       @media (max-width: $breakpoint--lg) {
         grid-template-columns: 1fr 1fr;
       }
-      @media (max-width: $breakpoint--sm) {
+      @media (max-width: $breakpoint--md) {
         grid-template-columns: 1fr;
       }
     }
@@ -224,7 +224,7 @@
       @media (max-width: $breakpoint--lg) {
         column-count: 2;
       }
-      @media (max-width: $breakpoint--sm) {
+      @media (max-width: $breakpoint--md) {
         column-count: 1;
       }
     }
