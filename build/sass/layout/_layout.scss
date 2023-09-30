@@ -233,14 +233,6 @@
       column-count: 2;
       column-gap: 32px;
 
-      h2.first {
-        break-before: column;
-
-        @media (max-width: $breakpoint--lg) {
-          break-before: auto;
-        }
-      }
-
       @media (max-width: $breakpoint--lg) {
         column-count: 1;
       }
