@@ -333,11 +333,13 @@ body {
 
       .nav-item {
         align-items: center;
+        background-color: transparent;
+        border: none;
         color: $color-primary-200;
         cursor: pointer;
         display: inline-block;
         height: 24px;
-        padding: 20px 24px;
+        padding: 0 24px;
         position: relative;
         z-index: 211;
 
