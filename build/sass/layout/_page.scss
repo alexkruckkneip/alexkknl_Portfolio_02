@@ -392,7 +392,9 @@ body {
     }
 
     a {
-      display: table;
+      display: inline;
+      padding: 2px 0;
+      margin: 14px 0;
     }
 
     &-02 {
