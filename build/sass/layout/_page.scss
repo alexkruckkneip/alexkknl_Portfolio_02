@@ -334,40 +334,47 @@ body {
       @media (max-width: $breakpoint--hd) {
         height: 48px;
       }
-
-      .nav-item {
-        align-items: center;
-        background-color: transparent;
-        border: none;
-        color: $color-primary-200;
-        cursor: pointer;
-        display: inline-block;
-        height: 64px;
-        padding: 0 24px;
-        position: relative;
-        z-index: 211;
-
-        @media (max-width: $breakpoint--hd) {
-          font-size: 16px;
-          height: 48px;
-          padding: 0 12px;
-        }
-
-        &.inactive, &.inactive a {
-          animation: button-hover-revert 0.4s;
-          @include  button-hover-animation;
-
-          &:hover, &.nav-item-list--open {
-            animation: button-hover 0.4s;
-            @include  button-hover-animation;
-          }
-        }
-        &.active {
-          color: $color-primary-200;
-        }
-      }
     }
   }
+
+
+  // Nav item
+
+  .nav-item {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: $color-primary-200;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    padding: 0 24px;
+    position: relative;
+    z-index: 211;
+
+    @media (max-width: $breakpoint--hd) {
+      font-size: 16px;
+      height: 48px;
+      padding: 0 12px;
+    }
+
+    &.inactive, &.inactive a {
+      animation: button-hover-revert 0.4s;
+      @include  button-hover-animation;
+
+      &:hover, &.nav-item-list--open {
+        animation: button-hover 0.4s;
+        @include  button-hover-animation;
+      }
+    }
+    &.active {
+      color: $color-primary-200;
+    }
+  }
+
+
+  // Nav item list
+
   .nav-item-list {
     position: absolute;
     padding: 0;
