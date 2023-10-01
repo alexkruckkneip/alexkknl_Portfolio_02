@@ -331,6 +331,10 @@ body {
       position: absolute;
       width: 100%;
 
+      @media (max-width: $breakpoint--hd) {
+        height: 48px;
+      }
+
       .nav-item {
         align-items: center;
         background-color: transparent;
@@ -345,8 +349,8 @@ body {
 
         @media (max-width: $breakpoint--hd) {
           font-size: 16px;
-          height: 24px;
-          padding: 12px 12px;
+          height: 48px;
+          padding: 0 12px;
         }
 
         &.inactive, &.inactive a {
@@ -361,7 +365,6 @@ body {
         &.active {
           color: $color-primary-200;
         }
-
       }
     }
   }
@@ -386,6 +389,10 @@ body {
       @media (max-width: $breakpoint--sm) {
         width: auto;
       }
+    }
+
+    a {
+      display: table;
     }
 
     &-02 {
