@@ -33,8 +33,8 @@
  		}
  	}
 
- 	loadscreen.style.transition = "0.15s";
- 	loadscreen.style.width = Width + "%";
+ 	// loadscreen.style.transition = '0.15s';
+ 	// loadscreen.style.width = Width + '%';
  }, 20);
 
 
