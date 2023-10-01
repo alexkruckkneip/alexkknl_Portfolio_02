@@ -350,11 +350,11 @@ body {
         }
 
         &.inactive, &.inactive a {
-          animation: button-hover-revert 0.8s;
+          animation: button-hover-revert 0.4s;
           @include  button-hover-animation;
 
           &:hover, &.nav-item-list--open {
-            animation: button-hover 0.8s;
+            animation: button-hover 0.4s;
             @include  button-hover-animation;
           }
         }
