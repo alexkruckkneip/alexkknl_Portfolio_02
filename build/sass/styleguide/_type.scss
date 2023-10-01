@@ -320,3 +320,16 @@ a {
     border-bottom: 1px solid $color-primary-400;
   }
 }
+
+.link-list {
+  li {
+    display: block;
+    margin: 16px 0;
+
+    a {
+      display: inline;
+      line-height: 32px;
+      padding: 2px 0;
+    }
+  }
+}
