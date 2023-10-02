@@ -303,6 +303,7 @@ a {
   text-decoration: none;
   border-bottom-width: 1px;
   border-bottom-color: $color-primary-200;
+  border-bottom-style: solid;
 
   animation: link-hover-revert 0.4s;
   cursor: pointer;
@@ -321,7 +322,7 @@ a {
     border-bottom-color: $color-primary-400;
   }
   &.page-link {
-    border-style: dotted;
+    border-bottom-style: dashed;
   }
 }
 
