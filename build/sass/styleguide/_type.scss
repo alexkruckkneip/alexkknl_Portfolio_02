@@ -316,6 +316,7 @@ a {
   &:focus, &:focus-visible {
     color: $color-primary-50;
     border-bottom-color: $color-primary-50;
+    border: 1px dashed $color-primary-200;
   }
   &:visited {
     color: $color-primary-400;

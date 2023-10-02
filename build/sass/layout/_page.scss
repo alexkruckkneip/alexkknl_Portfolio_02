@@ -372,6 +372,10 @@ body {
     &.active {
       color: $color-primary-200;
     }
+    &:focus, &:focus-visible {
+      border: 1px dashed $color-primary-200;
+      outline: 0;
+    }
   }
 
 
