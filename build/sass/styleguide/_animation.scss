@@ -149,12 +149,12 @@
     color: $color-grey-blue-300;
   }
   100% {
-    color: $color-grey-blue-100;
+    color: $color-grey-blue-50;
   }
 }
 @keyframes button-hover-revert  {
   0% {
-    color: $color-grey-blue-100;
+    color: $color-grey-blue-50;
   }
   100% {
     color: $color-grey-blue-300;
@@ -184,14 +184,14 @@
     border-bottom-color: $color-primary-200;
   }
   100% {
-    color: $color-primary-100;
-    border-bottom-color: $color-primary-100;
+    color: $color-primary-50;
+    border-bottom-color: $color-primary-50;
   }
 }
 @keyframes link-hover-revert  {
   0% {
-    color: $color-primary-100;
-    border-bottom-color: $color-primary-100;
+    color: $color-primary-50;
+    border-bottom-color: $color-primary-50;
   }
   100% {
     color: $color-primary-200;
