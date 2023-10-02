@@ -301,7 +301,8 @@ h1, h2, h3, h4, h5 {
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid $color-primary-200;
+  border-bottom-width: 1px;
+  border-bottom-color: $color-primary-200;
 
   animation: link-hover-revert 0.4s;
   cursor: pointer;
@@ -312,12 +313,15 @@ a {
     @include  button-hover-animation;
   }
   &:focus {
-    color: $color-primary-100;
-    border-bottom: 1px solid $color-primary-100;
+    color: $color-primary-50;
+    border-bottom-color: $color-primary-50;
   }
   &:visited {
     color: $color-primary-400;
-    border-bottom: 1px solid $color-primary-400;
+    border-bottom-color: $color-primary-400;
+  }
+  &.page-link {
+    border-style: dotted;
   }
 }
 
@@ -330,10 +334,6 @@ a {
       display: inline;
       line-height: 32px;
       padding: 2px 0;
-
-      &.page-link {
-        border-bottom-style: dashed;
-      }
     }
   }
 }
