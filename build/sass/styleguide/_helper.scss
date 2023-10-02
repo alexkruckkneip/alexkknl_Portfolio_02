@@ -326,9 +326,13 @@
 
 .scroll-margin {
   &-top {
-    &-64 {
-      scroll-margin-top: 64px;
+    &-nav {
+      scroll-margin-top: 80px;
       overflow: initial;
+
+      @media (max-width: $breakpoint--hd) {
+        scroll-margin-top: 64px;
+      }
     }
   }
 }
