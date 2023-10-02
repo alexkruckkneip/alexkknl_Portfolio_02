@@ -326,6 +326,12 @@ a {
   }
 }
 
+ul {
+  &.link-list {
+    padding: 0;
+  }
+}
+
 .link-list {
   li {
     display: block;
