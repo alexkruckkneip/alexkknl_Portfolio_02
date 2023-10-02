@@ -313,7 +313,7 @@ a {
     animation: link-hover 0.4s;
     @include  button-hover-animation;
   }
-  &:focus {
+  &:focus, &:focus-visible {
     color: $color-primary-50;
     border-bottom-color: $color-primary-50;
   }
@@ -344,3 +344,7 @@ ul {
     }
   }
 }
+
+
+// button
+// ---------- ---------- ---------- ---------- ----------
