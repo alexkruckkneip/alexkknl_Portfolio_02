@@ -319,7 +319,6 @@
 .cursor-pointer {
   cursor: pointer;
 }
-}
 
 
 // Scroll margin
@@ -328,7 +327,8 @@
 .scroll-margin {
   &-top {
     &-64 {
-      scroll-margin: -64px;
+      scroll-margin-top: 64px;
+      overflow: initial;
     }
   }
 }
