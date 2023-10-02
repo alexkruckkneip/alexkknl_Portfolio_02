@@ -6,7 +6,9 @@
 // Html
 // ---------- ---------- ---------- ---------- ----------
 
-html {}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   height: 100%;
