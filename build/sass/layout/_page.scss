@@ -192,6 +192,7 @@ body {
     &--top {
       align-items: flex-end;
       height: 66vh;
+      height: 66dvh;
       top: 0;
       width: 100vw;
 
@@ -202,6 +203,7 @@ body {
       align-items: flex-start;
       bottom: 0;
       height: 31vh;
+      height: 31dvh;
       width: 100vw;
 
       animation: gate-hero--bottom 0.8s;
