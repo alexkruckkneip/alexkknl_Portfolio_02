@@ -50,6 +50,12 @@
       height: 88vh;
       justify-content: center;
 
+      &-align {
+        &-right {
+          background-position: right;
+        }
+      }
+
       video {
         min-height: 100%;
         min-width: 100vw;
