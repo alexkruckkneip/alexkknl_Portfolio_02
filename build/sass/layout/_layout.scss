@@ -41,13 +41,12 @@
 
   // Mask
 
-  &-mask {
-    &-image {
+  &-mask  {
+    &-image, &-video {
       align-items: center;
       background-position: center;
       background-size: cover;
       display: grid;
-      height: 88vh;
       justify-content: center;
 
       &-align {
@@ -56,32 +55,13 @@
         }
       }
 
-      video {
-        min-height: 100%;
-        min-width: 100vw;
-
-        mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      	mask-size: $mask-gate-width;
-        -webkit-mask-size: $mask-gate-width;
-
-      }
-
       @media (max-width: $breakpoint--lg) {
         justify-content: start;
       }
 
-      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-    	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-    	mask-size: $mask-gate-width;
-      -webkit-mask-size: $mask-gate-width;
-
       overflow: hidden;
       width: 100%;
 
-      @media (orientation: portrait) {
-        height: 72vh;
-      }
 
       @media (max-width: $breakpoint--sm) {
         &-sm {
@@ -89,6 +69,24 @@
             background-position: right;
           }
         }
+      }
+    }
+    &-image {
+      height: 88vh;
+
+      @media (orientation: portrait) {
+        height: 72vh;
+      }
+      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      -webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      mask-size: $mask-gate-width;
+      -webkit-mask-size: $mask-gate-width;
+    }
+    &-video {
+
+      video {
+        height: 100%;
+        width: 100vw;
       }
     }
   }
