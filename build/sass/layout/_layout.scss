@@ -59,6 +59,12 @@
       video {
         min-height: 100%;
         min-width: 100vw;
+
+        mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      	-webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      	mask-size: $mask-gate-width;
+        -webkit-mask-size: $mask-gate-width;
+
       }
 
       @media (max-width: $breakpoint--lg) {
