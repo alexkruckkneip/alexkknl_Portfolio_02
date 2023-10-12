@@ -151,16 +151,6 @@
       grid-template-columns: 1fr;
     }
   }
-  &-1-1-1-1 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    @media (max-width: $breakpoint--lg) {
-      grid-template-columns: 1fr 1fr;
-    }
-    @media (max-width: $breakpoint--sm) {
-      grid-template-columns: 1fr;
-    }
-  }
 }
 
 
@@ -226,6 +216,20 @@
         grid-template-columns: 1fr 1fr;
       }
       @media (max-width: $breakpoint--md) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+    // column ratio of 1 to 1 to 1 to 1
+
+    &-1-1-1-1 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      @media (max-width: $breakpoint--lg) {
+        grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: $breakpoint--sm) {
         grid-template-columns: 1fr;
       }
     }
