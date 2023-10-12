@@ -223,7 +223,7 @@
 
     // column ratio of 1 to 1 to 1 to 1
 
-    &-1-1-1-1 {
+    &-1-to-1-to-1-to-1 {
       grid-template-columns: 1fr 1fr 1fr 1fr;
 
       @media (max-width: $breakpoint--lg) {
