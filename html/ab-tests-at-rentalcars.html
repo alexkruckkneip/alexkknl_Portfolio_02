@@ -294,11 +294,20 @@
 					</p>
 					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">Cross functional team</h3>
 					<p class="text-style-p text-color-grey-blue-200">
-						1 PM, 2 backend developer, 1 frontend developer, 1 UX UI Designer
+						1 PO, 2 backend developer, 1 frontend developer, 1 UX UI Designer
+					</p>
+					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">Areas of improvement</h3>
+					<p class="text-style-p text-color-grey-blue-200">
+						Focus on loading screen, search results and details page,
+						several side projects like the map search and car sharing implementation
+					</p>
+					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">Device</h3>
+					<p class="text-style-p text-color-grey-blue-200">
+						Web app for tablet &amp; desktop
 					</p>
 					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">My role</h3>
 					<p class="text-style-p text-color-grey-blue-200">
-						UX UI Designer
+						UX UI Web Designer
 					</p>
 					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">My responsebilities</h3>
 					<p class="text-style-p text-color-grey-blue-200">
@@ -306,7 +315,7 @@
 					</p>
 					<h3 class="text-color-grey-blue-400 text-style-h3-uppercase">Our process</h3>
 					<p class="text-style-p text-color-grey-blue-200">
-						Bi-weekly Scrum Sprints
+						Bi-weekly Kanban sprints
 					</p>
 				</div>
 
@@ -329,45 +338,48 @@
 						</p>
 
 						<h3 class="text-color-grey-blue-200 text-style-h3-uppercase column-first-headline">2. Voting</h3>
-						<p class="text-style-p text-color-grey-blue-300">
-							Any idea that someone wanted to test in an experiment had to be formulated in the form of a hypothesis.
-							What problem can the proposed change solve?
-							How can success be measured?
+						<p class="text-style-p text-color-grey-blue-200">
+							We met every two weeks for an idea session.
+							When I started at Rentalcars, usually only the interdisciplinary core team was invited.
 						</p>
-						<p class="text-style-p text-color-grey-blue-300">
-							As a rule, at least the last part of the following formulation was the same.
-							<p class="text-style-p text-color-grey-blue-200">
-								<i>“If we change this, we will achieve this effect.
-									We can measure success by increasing conversion.</i>
-							</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							Everyone was given about 3 minutes to present their idea in hypothesis form.
+							The hypotheses were then written on a whiteboard in the form of sticky notes.
+							Each participant then had 2 minutes to cast their vote in the form of three red dots.
+						</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							Finally, the team discussed how many of the hypotheses with the most votes could be planned for the next sprint.
+							The product owner had the final say
 						</p>
 
 						<h3 class="text-color-grey-blue-200 text-style-h3-uppercase column-first-headline">3. Prototyping</h3>
-						<p class="text-style-p text-color-grey-blue-300">
-							Any idea that someone wanted to test in an experiment had to be formulated in the form of a hypothesis.
-							What problem can the proposed change solve?
-							How can success be measured?
+						<p class="text-style-p text-color-grey-blue-200">
+							As a rule, the changes that had to be made to prepare the experiment were rather small.
+							That's why extensive prototypes created with Adobe XD or Sketch were the exception.
+							Lo-fi mockups with pencil and paper were absolutely sufficient.
 						</p>
-						<p class="text-style-p text-color-grey-blue-300">
-							As a rule, at least the last part of the following formulation was the same.
-							<p class="text-style-p text-color-grey-blue-200">
-								<i>“If we change this, we will achieve this effect.
-									We can measure success by increasing conversion.</i>
-							</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							My actual task was to prepare the graphically more complex experiments in code.
+							I then put together small closed packages of CSS, JS and HTML code without dependencies on other libraries.
+							I then handed this over to the developers.
 						</p>
 
 						<h3 class="text-color-grey-blue-200 text-style-h3-uppercase column-first-headline">4. AB Test</h3>
-						<p class="text-style-p text-color-grey-blue-300">
-							Any idea that someone wanted to test in an experiment had to be formulated in the form of a hypothesis.
-							What problem can the proposed change solve?
-							How can success be measured?
+						<p class="text-style-p text-color-grey-blue-200">
+							Our experiments were published with other experiments on the self-built Rentalcars AB Test Platform.
+							The proportion of traffic to be redirected to the experiment was decided depending on the type and possible risk.
+							An online dashboard allowed live monitoring of how much more or fewer bookings an experiment caused.
 						</p>
-						<p class="text-style-p text-color-grey-blue-300">
-							As a rule, at least the last part of the following formulation was the same.
-							<p class="text-style-p text-color-grey-blue-200">
-								<i>“If we change this, we will achieve this effect.
-									We can measure success by increasing conversion.</i>
-							</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							There are three different categories of experiment performance.
+							The <span class="text-color-grey-blue-50 text-style-p-bold">red failed</span> ones that generated fewer than 90 more bookings per day
+							In a <span class="text-color-grey-blue-50 text-style-p-bold">green</span> experiment that generated between 90 and 95 additional bookings, the PO was responsible for deciding whether to activate.
+						</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							Gold experimenting with over 95 bookings per day was the winning ticket. When I started, only between 5% and 7% of the experiments were in this category.
+						</p>
+						<p class="text-style-p text-color-grey-blue-200">
+							Good experiments had to be monitored for about two weeks before they were fully activated.
 						</p>
 					</div>
 
@@ -376,7 +388,7 @@
 
 			<div class="row whitespace-bottom-64">
 				<div class="column column-paragraph-3">
-					<h2 class="text-color-primary-200 text-style-h2-uppercase column-first-headline">Constraints before I joined</h2>
+					<h2 class="text-color-grey-blue-200 text-style-h2-uppercase column-first-headline">Constraints</h2>
 					<h3 class="text-color-grey-blue-200 text-style-h2-uppercase">No UX Design</h3>
 					<p class="text-style-p text-color-grey-blue-300">
 						Any idea that someone wanted to test in an experiment had to be formulated in the form of a hypothesis.
