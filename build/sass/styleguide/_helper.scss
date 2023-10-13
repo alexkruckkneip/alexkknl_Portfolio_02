@@ -253,6 +253,25 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
+// Hide content lg
+
+@media (max-width: $breakpoint--lg) {
+  .hide-content-lg {
+    display: none !important;
+  }
+}
+
+
+// Show content lg
+
+.show-content-lg {
+  display: none !important;
+
+  @media (max-width: $breakpoint--lg) {
+    display: block !important;
+  }
+}
+
 // Hide content md
 
 @media (max-width: $breakpoint--md) {
