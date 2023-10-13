@@ -105,7 +105,7 @@
 // ---------- ---------- ---------- ---------- ----------
 
 @mixin basic-grid (){
-  column-gap: 32px;
+  column-gap: $column-gap;
   display: grid;
   margin: 0 auto;
   max-width: 1792px;
@@ -149,6 +149,28 @@
     }
     @media (max-width: $breakpoint--sm) {
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+
+// Grid
+
+.grid {
+  &-container {
+    display: grid;
+    grid-gap: $column-gap;
+  }
+  &-column {
+    &-3 {
+      grid-template-columns: 1fr 1fr 1fr;
+
+      @media (max-width: $breakpoint--lg) {
+        grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: $breakpoint--md) {
+        grid-template-columns: 1fr;
+      }
     }
   }
 }
@@ -272,7 +294,7 @@
     }
     &-paragraph-3 {
       column-count: 3;
-      column-gap: 32px;
+      column-gap: $column-gap;
 
       @media (max-width: $breakpoint--lg) {
         column-count: 2;
@@ -284,7 +306,7 @@
 
     &-paragraph-2 {
       column-count: 2;
-      column-gap: 32px;
+      column-gap: $column-gap;
 
       @media (max-width: $breakpoint--lg) {
         column-count: 1;
