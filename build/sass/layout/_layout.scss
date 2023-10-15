@@ -92,10 +92,12 @@
     }
     &-video {
 
-      video {
-        height: 100%;
-        width: 100vw;
-      }
+      background-color: $color-primary-700;
+
+      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      -webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      mask-size: $mask-gate-width;
+      -webkit-mask-size: $mask-gate-width;
     }
   }
 }
