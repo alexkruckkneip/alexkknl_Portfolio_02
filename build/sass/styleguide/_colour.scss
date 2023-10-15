@@ -120,6 +120,47 @@ $color-secondary-red-950: #130002;
       &-850 {color: $color-grey-blue-850}
       &-900 {color: $color-grey-blue-900}
     }
+    &-secondary {
+      &-green {
+        &-50 {color: $color-secondary-green-50}
+        &-100 {color: $color-secondary-green-100}
+        &-200 {color: $color-secondary-green-200}
+        &-300 {color: $color-secondary-green-300}
+        &-400 {color: $color-secondary-green-400}
+        &-500 {color: $color-secondary-green-500}
+        &-600 {color: $color-secondary-green-600}
+        &-700 {color: $color-secondary-green-700}
+        &-800 {color: $color-secondary-green-800}
+        &-850 {color: $color-secondary-green-900}
+        &-900 {color: $color-secondary-green-950}
+      }
+      &-yellow {
+        &-50 {color: $color-secondary-yellow-50}
+        &-100 {color: $color-secondary-yellow-100}
+        &-200 {color: $color-secondary-yellow-200}
+        &-300 {color: $color-secondary-yellow-300}
+        &-400 {color: $color-secondary-yellow-400}
+        &-500 {color: $color-secondary-yellow-500}
+        &-600 {color: $color-secondary-yellow-600}
+        &-700 {color: $color-secondary-yellow-700}
+        &-800 {color: $color-secondary-yellow-800}
+        &-850 {color: $color-secondary-yellow-900}
+        &-900 {color: $color-secondary-yellow-950}
+      }
+      &-red {
+        &-50 {color: $color-secondary-red-50}
+        &-100 {color: $color-secondary-red-100}
+        &-200 {color: $color-secondary-red-200}
+        &-300 {color: $color-secondary-red-300}
+        &-400 {color: $color-secondary-red-400}
+        &-500 {color: $color-secondary-red-500}
+        &-600 {color: $color-secondary-red-600}
+        &-700 {color: $color-secondary-red-700}
+        &-800 {color: $color-secondary-red-800}
+        &-850 {color: $color-secondary-red-900}
+        &-900 {color: $color-secondary-red-950}
+      }
+    }
   }
 }
 
