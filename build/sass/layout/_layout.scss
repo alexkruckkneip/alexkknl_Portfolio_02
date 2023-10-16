@@ -49,6 +49,11 @@
       display: grid;
       justify-content: center;
 
+      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      -webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
+      mask-size: $mask-gate-width;
+      -webkit-mask-size: $mask-gate-width;
+
       &-align {
         &-right {
           background-position: right;
@@ -84,20 +89,10 @@
       &-1-3 {
         height: 33vh;
       }
-
-      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      -webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      mask-size: $mask-gate-width;
-      -webkit-mask-size: $mask-gate-width;
     }
     &-video {
-
-      background-color: $color-primary-700;
-
-      mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      -webkit-mask: url(../img/svg/svg--shape-gate--top.svg) no-repeat center bottom;
-      mask-size: $mask-gate-width;
-      -webkit-mask-size: $mask-gate-width;
+      min-height: 100%;
+      width: 100vw;
     }
   }
 }
