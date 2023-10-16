@@ -157,6 +157,7 @@
   &-container {
     display: grid;
     grid-gap: $column-gap;
+    width: 100%;
   }
   &-column {
     &-3 {
