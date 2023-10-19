@@ -55,6 +55,9 @@
       -webkit-mask-size: $mask-gate-width;
 
       &-align {
+        &-left {
+          background-position: left;
+        }
         &-right {
           background-position: right;
         }
