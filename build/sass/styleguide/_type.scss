@@ -275,6 +275,9 @@ h1, h2, h3, h4, h5 {
     &-uppercase {
       @include text-style-h-3-uppercase
     }
+    &-link {
+      line-height: 32px;
+    }
   }
   &-h4-uppercase {
     @include text-style-h-4-uppercase
