@@ -214,7 +214,7 @@ body {
     .text-style-hero-03-uppercase {
       color: $color-grey-blue-700;
     }
-    .text-style-hero-01-uppercase {
+    .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
       color: $color-primary-700;
     }
     .text-style-hero-03-uppercase, .text-style-hero-01-uppercase {
@@ -276,7 +276,7 @@ body {
         .text-style-hero-03-uppercase {
           color: $color-grey-blue-200;
         }
-        .text-style-hero-01-uppercase {
+        .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
           color: $color-primary-200;
         }
       }
