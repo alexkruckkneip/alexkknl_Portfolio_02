@@ -96,6 +96,11 @@
     &-video {
       min-height: 100%;
       width: 100vw;
+
+      &-inline {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }

@@ -268,6 +268,9 @@ h1, h2, h3, h4, h5 {
     &-quote {
       @include text-style-h-2-quote
     }
+    &-link {
+      line-height: 48px;
+    }
   }
   &-h3 {
     @include text-style-h-3
