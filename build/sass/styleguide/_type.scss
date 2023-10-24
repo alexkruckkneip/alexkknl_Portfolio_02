@@ -58,22 +58,22 @@ h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
 }
 @mixin text-style-h-2() {
-	font-size: 32px;
+	font-size: 28px;
 	font-family: "roboto_slab--medium";
 	font-weight: 500;
 	font-style: normal;
-	line-height: 40px;
+	line-height: 36px;
 	text-decoration: none;
 	text-transform: none;
 }
 @mixin text-style-h-2-uppercase() {
-	font-size: 32px;
+	font-size: 28px;
 	font-family: "roboto_slab--medium";
 	font-weight: 500;
 	font-style: normal;
-	line-height: 32px;
-  margin-top: 64px;
-  margin-bottom: 32px;
+	line-height: 36px;
+  margin-top: 56px;
+  margin-bottom: 28px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
