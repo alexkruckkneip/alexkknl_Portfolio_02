@@ -20,23 +20,6 @@
 // ---------- ---------- ---------- ---------- ----------
 
 .container {
-  padding: 64px 0;
-
-  @media (max-width: $breakpoint--lg) {
-    padding: 64px 0;
-  }
-  @media (max-width: $breakpoint--md) {
-    padding: 56px 0;
-  }
-  @media (max-width: $breakpoint--md) {
-    padding: 48px 0;
-  }
-  @media (max-width: $breakpoint--xs) {
-    padding: 24px 0;
-  }
-  @media (max-width: $breakpoint--xxs) {
-    padding: 16px 0;
-  }
 
 
   // Mask
