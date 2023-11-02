@@ -92,6 +92,14 @@
       &-1-3 {
         height: 33vh;
       }
+      &-teaser {
+        mask: url(../img/svg/svg--shape-teaser-image.svg) no-repeat right bottom;
+        -webkit-mask: url(../img/svg/svg--shape-teaser-image.svg) no-repeat right bottom;
+        mask-size: $mask-gate-width;
+        -webkit-mask-size: $mask-gate-width;
+
+        height: 240px;
+      }
     }
     &-video {
       min-height: 100%;
