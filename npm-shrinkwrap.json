@@ -2790,7 +2790,7 @@
     "gulp-ttf2eot": {
       "version": "1.1.2",
       "resolved": "https://registry.npmjs.org/gulp-ttf2eot/-/gulp-ttf2eot-1.1.2.tgz",
-      "integrity": "sha1-Z1Fv4lO67Ls5ELQXoI3LUeNKyww=",
+      "integrity": "sha512-B2NwwG+QVMF6ETzeXwZHx6MeYEx0oHguIj0ZjPhqtKM3iXuDOrYbT2054q73cTI6hn2GMNAQWy11GjZM+LUxRg==",
       "requires": {
         "bufferstreams": "^1.1.0",
         "gulp-util": "^3.0.7",
