@@ -149,7 +149,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 /* Text Styles  */
 
 @mixin hero1 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 96px;
   line-height: 112px;
   letter-spacing: 0%;
@@ -158,7 +158,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin hero2 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0%;
@@ -167,7 +167,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin hero3 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 64px;
   line-height: 72px;
   letter-spacing: 0%;
@@ -176,7 +176,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin hero4 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0%;
@@ -185,7 +185,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin hero1-mobile {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 64px;
   line-height: 72px;
   letter-spacing: 0%;
@@ -194,7 +194,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin hero-mobile {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0%;
@@ -203,7 +203,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin text-button {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -212,7 +212,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin h1 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 48px;
   line-height: 56px;
   letter-spacing: 0%;
@@ -221,7 +221,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin h2 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0%;
@@ -230,7 +230,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin h3 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0%;
@@ -239,7 +239,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin h4 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 28px;
   line-height: 36px;
   letter-spacing: 0%;
@@ -248,7 +248,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin h5 {
-  font-family: K2D;
+  font-family: "K2D-light";
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0%;
@@ -257,7 +257,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-big {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0%;
@@ -266,7 +266,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-big--emphasised {
-  font-family: K2D;
+  font-family: "K2D-bold";
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0%;
@@ -275,7 +275,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
@@ -283,7 +283,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 }
 
 .p--emphasised {
-  font-family: K2D;
+  font-family: "K2D-bold";
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
@@ -292,7 +292,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-small {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0%;
@@ -301,7 +301,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-small--emphasised {
-  font-family: K2D;
+  font-family: "K2D-bold";
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0%;
@@ -310,7 +310,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-tiny {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0%;
@@ -319,7 +319,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p-tiny--emphasised {
-  font-family: K2D;
+  font-family: "K2D-bold";
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0%;
@@ -328,7 +328,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin quote-h2 {
-  font-family: K2D;
+  font-family: "K2D-LightItalic";
   font-size: 40px;
   line-height: 52px;
   letter-spacing: 0%;
@@ -337,7 +337,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin quote-h3 {
-  font-family: K2D;
+  font-family: "K2D-LightItalic";
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0%;
@@ -346,7 +346,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin quote-p-big {
-  font-family: K2D;
+  font-family: "K2D-LightItalic";
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -355,7 +355,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin quote-p {
-  font-family: K2D;
+  font-family: "K2D-LightItalic";
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
@@ -364,7 +364,7 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 
 @mixin p--link {
-  font-family: K2D;
+  font-family: "K2D";
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
