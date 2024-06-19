@@ -16,7 +16,6 @@
 @import 'styleguide/colour';
 @import 'styleguide/type';
 @import 'styleguide/styles';
-@import 'styleguide/helper';
 
 // Layout
 // ---------- ---------- ---------- ---------- ----------
@@ -27,4 +26,4 @@
 // Helper
 // ---------- ---------- ---------- ---------- ----------
 
-// @import 'styleguide/helper';
+@import 'styleguide/helper';
