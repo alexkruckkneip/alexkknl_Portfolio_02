@@ -7,28 +7,28 @@
 // ---------- ---------- ---------- ---------- ----------
 
 @font-face {
-  font-family: "roboto_slab";
-  font-weight: 300;
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Regular.eot");
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Regular.eot?#iefix") format("eot"), url("../fonts/Roboto_Slab/RobotoSlab-Regular.woff") format("woff"), url("../fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format("truetype"); }
+  font-family: "K2D";
+  font-weight: 400;
+  src: url("../fonts/K2D/K2D-Regular.eot");
+  src: url("../fonts/K2D/K2D-Regular.eot?#iefix") format("eot"), url("../fonts/K2D/K2D-Regular.woff") format("woff"), url("../fonts/K2D/K2D-Regular.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "roboto_slab--medium";
-  font-weight: 500;
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Medium.eot");
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Medium.eot?#iefix") format("eot"), url("../fonts/Roboto_Slab/RobotoSlab-Medium.woff") format("woff"), url("../fonts/Roboto_Slab/RobotoSlab-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto_slab--bold";
+  font-family: "K2D-bold";
   font-weight: 700;
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Bold.eot");
-  src: url("../fonts/Roboto_Slab/RobotoSlab-Bold.eot?#iefix") format("eot"), url("../fonts/Roboto_Slab/RobotoSlab-Bold.woff") format("woff"), url("../fonts/Roboto_Slab/RobotoSlab-Bold.ttf") format("truetype"); }
+  src: url("../fonts/K2D/K2D-Bold.eot");
+  src: url("../fonts/K2D/K2D-Bold.eot?#iefix") format("eot"), url("../fonts/K2D/K2D-Bold.woff") format("woff"), url("../fonts/K2D/K2D-Bold.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "roboto_serif--italic";
+  font-family: "K2D-light";
   font-weight: 300;
-  src: url("../fonts/Roboto_Serif/RobotoSerif-Italic.eot");
-  src: url("../fonts/Roboto_Serif/RobotoSerif-Italic.eot?#iefix") format("eot"), url("../fonts/Roboto_Serif/RobotoSerif-Italic.woff") format("woff"), url("../fonts/Roboto_Serif/RobotoSerif-Italic.ttf") format("truetype"); }
+  src: url("../fonts/K2D/K2D-Light.eot");
+  src: url("../fonts/K2D/K2D-Light.eot?#iefix") format("eot"), url("../fonts/K2D/K2D-Light.woff") format("woff"), url("../fonts/K2D/K2D-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "K2D-LightItalic";
+  font-weight: 300;
+  src: url("../fonts/Roboto_Serif/K2D-LightItalic.eot");
+  src: url("../fonts/Roboto_Serif/K2D-LightItalic.eot?#iefix") format("eot"), url("../fonts/Roboto_Serif/K2D-LightItalic.woff") format("woff"), url("../fonts/Roboto_Serif/K2D-LightItalic.ttf") format("truetype"); }
 
 
 // Global font family
@@ -36,11 +36,11 @@
 
 * {
    //font-family: exo-2, sans-serif;
-   font-family: roboto_slab, serif;
+   font-family: K2D, serif;
   }
 
 h1, h2, h3, h4, h5 {
-  font-family: "roboto_slab--medium";
+  font-family: "K2D--medium";
   font-weight: 500;
   display: block;
   margin-block-start: 1.5em;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5 {
 }
 
 @mixin text-style-h-1-uppercase() {
-  font-family: "roboto_slab--medium";
+  font-family: "K2D--medium";
   font-weight: 500;
 	font-size: 48px;
 	line-height: 48px;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-2() {
 	font-size: 28px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 36px;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-2-uppercase() {
 	font-size: 28px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 36px;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-3() {
 	font-size: 20px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 24px;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-3-uppercase() {
 	font-size: 24px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 24px;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-h-4-uppercase() {
 	font-size: 20px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 20px;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-p() {
 	font-size: 16px;
-	font-family: "roboto_slab";
+	font-family: "K2D";
 	font-weight: 300;
 	font-style: normal;
 	line-height: 24px;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-p-bold() {
 	font-size: 16px;
-	font-family: "roboto_slab--bold";
+	font-family: "K2D--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 24px;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-01-uppercase() {
 	font-size: 96px;
-	font-family: "roboto_slab--bold";
+	font-family: "K2D--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 88px;
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-02-uppercase() {
 	font-size: 64px;
-	font-family: "roboto_slab--bold";
+	font-family: "K2D--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 56px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-02() {
 	font-size: 48px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 140%;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-03() {
 	font-size: 32px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 40px;
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-03-uppercase() {
   font-size: 32px;
-	font-family: "roboto_slab--bold";
+	font-family: "K2D--bold";
 	font-weight: 700;
 	font-style: normal;
 	line-height: 40px;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5 {
 }
 @mixin text-style-hero-hero-04() {
 	font-size: 24px;
-	font-family: "roboto_slab--medium";
+	font-family: "K2D--medium";
 	font-weight: 500;
 	font-style: normal;
 	line-height: 32px;
