@@ -82,49 +82,34 @@ h1, h2, h3, h4, h5 {
 // ---------- ---------- ---------- ---------- ----------
 
 .text-style {
-  &-h1-uppercase {
-    @include text-style-h-1-uppercase
-  }
   &-h1 {
-    @include text-style-h-1-uppercase
-    text-transform: none;
+    @include h1
   }
   &-h2 {
-    @include text-style-h-2
+    @include h2
 
-    &-uppercase {
-      @include text-style-h-2-uppercase
-    }
     &-quote {
-      @include text-style-h-2-quote
+      @include quote-h2
     }
     &-link {
       line-height: 48px;
     }
   }
   &-h3 {
-    @include text-style-h-3
-
-    &-uppercase {
-      @include text-style-h-3-uppercase
-    }
+    @include h3
     &-link {
       line-height: 32px;
     }
     &-quote {
-      @include text-style-h-3-quote
+      @include quote-h3
     }
   }
-  &-h4-uppercase {
-    @include text-style-h-4-uppercase
-  }
-
 
   // Paragraph
   // ---------- ---------- ---------- ---------- ----------
 
   &-p {
-    @include text-style-p
+    @include p
 
     display: block;
     margin-block-start: 0;
@@ -133,7 +118,7 @@ h1, h2, h3, h4, h5 {
     margin-inline-end: 0px;
 
     &-bold {
-      @include text-style-p-bold
+      @include p--emphasised
     }
     &-inline {
       display: inline;
