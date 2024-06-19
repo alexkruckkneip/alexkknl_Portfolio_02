@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 
   &.dark {
-    background: $secondary-schooner--800;
+    background: $secondary-schooner--900;
   }
   &.nav-item-list--open {
     overflow-y: hidden;
@@ -37,7 +37,7 @@ body {
 
   &.loaded {
     .content-wrapper {
-      background: $secondary-schooner--800;
+      background: $secondary-schooner--900;
       opacity: 1;
 
       animation: content-wrapper 1.92s;
