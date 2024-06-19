@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 
   &.dark {
-    background: $secondary-schooner--950;
+    background: $secondary-schooner--800;
   }
   &.nav-item-list--open {
     overflow-y: hidden;
@@ -37,7 +37,7 @@ body {
 
   &.loaded {
     .content-wrapper {
-      background: $secondary-schooner--950;
+      background: $secondary-schooner--800;
       opacity: 1;
 
       animation: content-wrapper 1.92s;
@@ -116,7 +116,7 @@ body {
 
     svg {
       fill: url(#svg-gradiant-grey-blue-darker);
-      filter: drop-shadow(0px 0px 48px $secondary-schooner--900);
+      filter: drop-shadow(0px 0px 48px $secondary-schooner--800);
       bottom: 0;
     }
     &--line {
@@ -316,8 +316,8 @@ body {
   svg {
     bottom: 0;
     display: block;
-    fill: $secondary-schooner--950;
-    filter: drop-shadow(0px 0px 48px $secondary-schooner--900);
+    fill: $secondary-schooner--900;
+    filter: drop-shadow(0px 0px 48px $secondary-schooner--950);
     position: absolute;
     right: 0;
     z-index: 200;
