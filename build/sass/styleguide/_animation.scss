@@ -101,13 +101,13 @@
 
 @keyframes gate-line  {
   0% {
-    lill: $color-primary-200;
+    lill: $primary-bright-turquoise--200;
   }
   50% {
-    fill: $color-primary-500;
+    fill: $primary-bright-turquoise--500;
   }
   100% {
-    fill: $color-primary-200;
+    fill: $primary-bright-turquoise--200;
   }
 }
 
@@ -116,13 +116,13 @@
 
 @keyframes gate-background  {
   0% {
-    background-color: $color-primary-100;
+    background-color: $primary-bright-turquoise--100;
   }
   50% {
-    background-color: $color-primary-400;
+    background-color: $primary-bright-turquoise--400;
   }
   100% {
-    background-color: $color-primary-100;
+    background-color: $primary-bright-turquoise--100;
   }
 }
 @keyframes gate-background-remove  {
@@ -146,18 +146,18 @@
 
 @keyframes button-hover  {
   0% {
-    color: $color-grey-blue-300;
+    color: secondary-schooner-300;
   }
   100% {
-    color: $color-grey-blue-50;
+    color: secondary-schooner-50;
   }
 }
 @keyframes button-hover-revert  {
   0% {
-    color: $color-grey-blue-50;
+    color: secondary-schooner-50;
   }
   100% {
-    color: $color-grey-blue-300;
+    color: secondary-schooner-300;
   }
 }
 
@@ -180,21 +180,21 @@
 
 @keyframes link-hover  {
   0% {
-    color: $color-primary-200;
-    border-bottom-color: $color-primary-200;
+    color: $primary-bright-turquoise--200;
+    border-bottom-color: $primary-bright-turquoise--200;
   }
   100% {
-    color: $color-primary-50;
-    border-bottom-color: $color-primary-50;
+    color: $primary-bright-turquoise--50;
+    border-bottom-color: $primary-bright-turquoise--50;
   }
 }
 @keyframes link-hover-revert  {
   0% {
-    color: $color-primary-50;
-    border-bottom-color: $color-primary-50;
+    color: $primary-bright-turquoise--50;
+    border-bottom-color: $primary-bright-turquoise--50;
   }
   100% {
-    color: $color-primary-200;
-    border-bottom-color: $color-primary-200;
+    color: $primary-bright-turquoise--200;
+    border-bottom-color: $primary-bright-turquoise--200;
   }
 }

@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 
   &.dark {
-    background: $color-grey-blue-850;
+    background: $secondary-schooner--950;
   }
   &.nav-item-list--open {
     overflow-y: hidden;
@@ -37,7 +37,7 @@ body {
 
   &.loaded {
     .content-wrapper {
-      background: $color-grey-blue-850;
+      background: $secondary-schooner--950;
       opacity: 1;
 
       animation: content-wrapper 1.92s;
@@ -116,7 +116,7 @@ body {
 
     svg {
       fill: url(#svg-gradiant-grey-blue-darker);
-      filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
+      filter: drop-shadow(0px 0px 48px $secondary-schooner--900);
       bottom: 0;
     }
     &--line {
@@ -212,10 +212,10 @@ body {
 
     //  Text styles
     .text-style-hero-03-uppercase {
-      color: $color-grey-blue-700;
+      color: $secondary-schooner--700;
     }
     .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
-      color: $color-primary-700;
+      color: $primary-bright-turquoise--700;
     }
     .text-style-hero-03-uppercase, .text-style-hero-01-uppercase {
       transition: color 0.96s ease-in-out;
@@ -274,19 +274,19 @@ body {
 
         //  Text styles
         .text-style-hero-03-uppercase {
-          color: $color-grey-blue-200;
+          color: $secondary-schooner--200;
         }
         .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
-          color: $color-primary-200;
+          color: $primary-bright-turquoise--200;
         }
       }
       &-light {
         //  Text styles
         .text-style-hero-03-uppercase {
-          color: $color-grey-blue-800;
+          color: $secondary-schooner--800;
         }
         .text-style-hero-01-uppercase {
-          color: $color-primary-800;
+          color: $primary-bright-turquoise--800;
         }
       }
     }
@@ -316,8 +316,8 @@ body {
   svg {
     bottom: 0;
     display: block;
-    fill: $color-grey-blue-850;
-    filter: drop-shadow(0px 0px 48px $color-grey-blue-900);
+    fill: $secondary-schooner--950;
+    filter: drop-shadow(0px 0px 48px $secondary-schooner--900);
     position: absolute;
     right: 0;
     z-index: 200;
@@ -348,7 +348,7 @@ body {
     align-items: center;
     background-color: transparent;
     border: none;
-    color: $color-primary-200;
+    color: $primary-bright-turquoise--200;
     cursor: pointer;
     display: inline-block;
     height: 64px;
@@ -372,7 +372,7 @@ body {
       }
     }
     &.active {
-      color: $color-primary-200;
+      color: $primary-bright-turquoise--200;
     }
     &:focus-visible {
       outline: 0;
