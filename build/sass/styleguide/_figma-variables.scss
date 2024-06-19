@@ -1,0 +1,152 @@
+// ---------- ---------- ---------- ---------- ----------
+// Figma variables
+// ---------- ---------- ---------- ---------- ----------
+
+
+// Primary
+// ---------- ---------- ---------- ---------- ----------
+
+/* Primitive */
+$themes: (
+ Mode 1: (
+  /* color */
+  $primary-bright-turquoise--100: #d7f5ff;
+  $primary-bright-turquoise--200: #a4e9ff;
+  $primary-bright-turquoise--300: #71deff;
+  $primary-bright-turquoise--400: #3ed3ff;
+  $primary-bright-turquoise--50: #f1fbff;
+  $primary-bright-turquoise--500: #0bcaff;
+  $primary-bright-turquoise--600: #00a6d2;
+  $primary-bright-turquoise--700: #007b9a;
+  $primary-bright-turquoise--800: #004f62;
+  $primary-bright-turquoise--900: #00222a;
+  $primary-bright-turquoise--950: #000b0e;
+  $secondary-schooner--100: #eae9e9;
+  $secondary-schooner--200: #d1d0cf;
+  $secondary-schooner--300: #b8b6b5;
+  $secondary-schooner--400: #9f9d9b;
+  $secondary-schooner--50: #f6f6f6;
+  $secondary-schooner--500: #868381;
+  $secondary-schooner--600: #6a6765;
+  $secondary-schooner--700: #4d4b4a;
+  $secondary-schooner--800: #302f2e;
+  $secondary-schooner--900: #141313;
+  $secondary-schooner--950: #050505;
+  /* number */
+  $values-paragraph-spacing--1: 0.25rem;
+  $values-border-radius--1: 0.5rem;
+  $values-paragraph-spacing--2: 0.5rem;
+  $values-paragraph-spacing--3: 0.75rem;
+  $values-border-radius--2: 1rem;
+  $values-paragraph-spacing--4: 1rem;
+  $values-border-radius--3: 1.5rem;
+  $values-paragraph-spacing--5: 1.5rem;
+  $values-border-radius--5: 3rem;
+  $values-paragraph-spacing--6: 3rem;
+  $values-border-radius--4: 4rem;
+  $values-paragraph-spacing--7: 4rem;
+  $values-paragraph-spacing--8: 6rem;
+ ),
+);
+/* Tokens */
+$themes: (
+ Light: (
+  /* color */
+  $body-body--background: $secondary-schooner--100;
+  $card-card--background--1: $secondary-schooner--50;
+  $card-card--background--2: $secondary-schooner--100;
+  $card-card--background--3: $secondary-schooner--200;
+  $card-card--background--4: $secondary-schooner--300;
+  $card-card--border--1: $secondary-schooner--500;
+  $layout-spacer-colour: #05050500;
+  $shadows-primary: #00222a3d;
+  $shadows-secondary: #1413133d;
+  $text-body--1: $secondary-schooner--950;
+  $text-body--2: $secondary-schooner--900;
+  $text-body--3: $secondary-schooner--800;
+  $text-body--4: $secondary-schooner--700;
+  $text-body--emphasise: $primary-bright-turquoise--800;
+  $text-headline--1: $secondary-schooner--900;
+  $text-headline--2: $secondary-schooner--800;
+  $text-headline--primary: $primary-bright-turquoise--700;
+  $text-link: $primary-bright-turquoise--800;
+  /* number */
+  $layout-spacer-4: 0.25rem;
+  $layout-spacer-8: 0.5rem;
+  $layout-spacer-12: 0.75rem;
+  $layout-spacer-16: 1rem;
+  $layout-spacer-24: 1.5rem;
+  $layout-spacer-48: 3rem;
+  $layout-spacer-64: 4rem;
+  $layout-spacer-96: 6rem;
+  $layout-spacer-128: 8rem;
+  $layout-spacer-160: 10rem;
+  $layout-spacer-240: 15rem;
+ ),
+ Dark: (
+  /* color */
+  $body-body--background: $secondary-schooner--900;
+  $card-card--background--1: $secondary-schooner--950;
+  $card-card--background--2: $secondary-schooner--900;
+  $card-card--background--3: $secondary-schooner--800;
+  $card-card--background--4: $secondary-schooner--700;
+  $card-card--border--1: $secondary-schooner--500;
+  $layout-spacer-colour: #f6f6f600;
+  $shadows-primary: $secondary-schooner--950;
+  $shadows-secondary: $secondary-schooner--950;
+  $text-body--1: $secondary-schooner--50;
+  $text-body--2: $secondary-schooner--100;
+  $text-body--3: $secondary-schooner--200;
+  $text-body--4: $secondary-schooner--300;
+  $text-body--emphasise: $primary-bright-turquoise--300;
+  $text-headline--1: $secondary-schooner--100;
+  $text-headline--2: $secondary-schooner--200;
+  $text-headline--primary: $primary-bright-turquoise--300;
+  $text-link: $primary-bright-turquoise--300;
+  /* number */
+  $layout-spacer-4: 0.25rem;
+  $layout-spacer-8: 0.5rem;
+  $layout-spacer-12: 0.75rem;
+  $layout-spacer-16: 1rem;
+  $layout-spacer-24: 1.5rem;
+  $layout-spacer-48: 3rem;
+  $layout-spacer-64: 4rem;
+  $layout-spacer-96: 6rem;
+  $layout-spacer-128: 8rem;
+  $layout-spacer-160: 10rem;
+  $layout-spacer-240: 15rem;
+ ),
+ Layout: (
+  /* color */
+  $body-body--background: $secondary-schooner--900;
+  $card-card--background--1: $secondary-schooner--950;
+  $card-card--background--2: $secondary-schooner--900;
+  $card-card--background--3: $secondary-schooner--800;
+  $card-card--background--4: $secondary-schooner--700;
+  $card-card--border--1: $secondary-schooner--500;
+  $layout-spacer-colour: #a4e9ff80;
+  $shadows-primary: #00222a3d;
+  $shadows-secondary: #1413133d;
+  $text-body--1: $secondary-schooner--50;
+  $text-body--2: $secondary-schooner--100;
+  $text-body--3: $secondary-schooner--200;
+  $text-body--4: $secondary-schooner--300;
+  $text-body--emphasise: $primary-bright-turquoise--300;
+  $text-headline--1: $secondary-schooner--100;
+  $text-headline--2: $secondary-schooner--200;
+  $text-headline--primary: $primary-bright-turquoise--300;
+  $text-link: $primary-bright-turquoise--300;
+  /* number */
+  $layout-spacer-4: 0.25rem;
+  $layout-spacer-8: 0.5rem;
+  $layout-spacer-12: 0.75rem;
+  $layout-spacer-16: 1rem;
+  $layout-spacer-24: 1.5rem;
+  $layout-spacer-48: 3rem;
+  $layout-spacer-64: 4rem;
+  $layout-spacer-96: 6rem;
+  $layout-spacer-128: 8rem;
+  $layout-spacer-160: 10rem;
+  $layout-spacer-240: 15rem;
+ ),
+);
