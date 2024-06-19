@@ -3,163 +3,35 @@
 // ---------- ---------- ---------- ---------- ----------
 
 
-// Primary
-// ---------- ---------- ---------- ---------- ----------
-
-$color-primary-50: rgba(224,248,254,1);
-$color-primary-100: rgba(200,242,253,1);
-$color-primary-200: rgba(150,230,252,1);
-$color-primary-300: rgba(100,218,251,1);
-$color-primary-400: rgba(51,206,249,1);
-$color-primary-500: rgba(7,191,242,1);
-$color-primary-600: rgba(5,152,193,1);
-$color-primary-700: rgba(4,113,143,1);
-$color-primary-800: rgba(3,74,93,1);
-$color-primary-900: rgba(1,35,44,1);
-
-
-// Grey-blue
-// ---------- ---------- ---------- ---------- ----------
-
-$color-grey-blue-50: rgba(248,248,249,1);
-$color-grey-blue-100: rgba(234,236,237,1);
-$color-grey-blue-200: rgba(208,211,212,1);
-$color-grey-blue-300: rgba(181,186,188,1);
-$color-grey-blue-400: rgba(154,161,164,1);
-$color-grey-blue-500: rgba(127,136,140,1);
-$color-grey-blue-600: rgba(102,110,114,1);
-$color-grey-blue-700: rgba(78,84,87,1);
-$color-grey-blue-800: rgba(54,58,60,1);
-$color-grey-blue-850: rgba(42,45,47,1);
-$color-grey-blue-900: rgba(30,32,33,1);
-
-
-// Grey-blue
-// ---------- ---------- ---------- ---------- ----------
-
-$color-gradient-grey-blue-vertical: linear-gradient(45deg, $color-grey-blue-800 0%,$color-grey-blue-900 100%);
-$color-gradient-grey-blue-vertical-invert: linear-gradient(135deg, $color-grey-blue-900 0%,$color-grey-blue-800 100%);
-$color-gradient-grey-blue-horizontal: linear-gradient(to bottom, rgba(30,32,33,0.118) 0%,rgba(54,58,60,0.212) 100%);
-
-
-// Secondary-green
-// ---------- ---------- ---------- ---------- ----------
-
-$color-secondary-green-50: #e0fef1;
-$color-secondary-green-100: #c7fee5;
-$color-secondary-green-200: #96fccf;
-$color-secondary-green-300: #64fbb8;
-$color-secondary-green-400: #32faa1;
-$color-secondary-green-500: #06f38a;
-$color-secondary-green-600: #05c16d;
-$color-secondary-green-700: #039051;
-$color-secondary-green-800: #025e35;
-$color-secondary-green-900: #012c19;
-$color-secondary-green-950: #00130b;
-
-
-// Secondary-yellow
-// ---------- ---------- ---------- ---------- ----------
-
-$color-secondary-yellow-50: #fef9e9;
-$color-secondary-yellow-100: #fef3d5;
-$color-secondary-yellow-200: #fde8ad;
-$color-secondary-yellow-300: #fcdd86;
-$color-secondary-yellow-400: #fbd15e;
-$color-secondary-yellow-500: #fac636;
-$color-secondary-yellow-600: #f2b306;
-$color-secondary-yellow-700: #bb8b05;
-$color-secondary-yellow-800: #846203;
-$color-secondary-yellow-900: #4e3a02;
-$color-secondary-yellow-950: #322501;
-
-
-// Secondary-red
-// ---------- ---------- ---------- ---------- ----------
-
-$color-secondary-red-50: #fee0e3;
-$color-secondary-red-100: #fec7cd;
-$color-secondary-red-200: #fc96a0;
-$color-secondary-red-300: #fb6473;
-$color-secondary-red-400: #fa3246;
-$color-secondary-red-500: #f3061e;
-$color-secondary-red-600: #c10518;
-$color-secondary-red-700: #900312;
-$color-secondary-red-800: #5e020b;
-$color-secondary-red-900: #2c0105;
-$color-secondary-red-950: #130002;
-
-
 // Color-text
 // ---------- ---------- ---------- ---------- ----------
 
 .text {
   &-color {
     &-primary {
-      &-50 {color: $color-primary-50}
-      &-100 {color: $color-primary-100}
-      &-200 {color: $color-primary-200}
-      &-300 {color: $color-primary-300}
-      &-400 {color: $color-primary-400}
-      &-500 {color: $color-primary-500}
-      &-600 {color: $color-primary-600}
-      &-700 {color: $color-primary-700}
-      &-800 {color: $color-primary-800}
-      &-900 {color: $color-primary-900}
+      &-50 {color: $primary-bright-turquoise--50}
+      &-100 {color: $primary-bright-turquoise--100}
+      &-200 {color: $primary-bright-turquoise--200}
+      &-300 {color: $primary-bright-turquoise--300}
+      &-400 {color: $primary-bright-turquoise--400}
+      &-500 {color: $primary-bright-turquoise--500}
+      &-600 {color: $primary-bright-turquoise--600}
+      &-700 {color: $primary-bright-turquoise--700}
+      &-800 {color: $primary-bright-turquoise--800}
+      &-900 {color: $primary-bright-turquoise--900}
     }
     &-grey-blue {
-      &-50 {color: $color-grey-blue-50}
-      &-100 {color: $color-grey-blue-100}
-      &-200 {color: $color-grey-blue-200}
-      &-300 {color: $color-grey-blue-300}
-      &-400 {color: $color-grey-blue-400}
-      &-500 {color: $color-grey-blue-500}
-      &-600 {color: $color-grey-blue-600}
-      &-700 {color: $color-grey-blue-700}
-      &-800 {color: $color-grey-blue-800}
-      &-850 {color: $color-grey-blue-850}
-      &-900 {color: $color-grey-blue-900}
-    }
-    &-secondary {
-      &-green {
-        &-50 {color: $color-secondary-green-50}
-        &-100 {color: $color-secondary-green-100}
-        &-200 {color: $color-secondary-green-200}
-        &-300 {color: $color-secondary-green-300}
-        &-400 {color: $color-secondary-green-400}
-        &-500 {color: $color-secondary-green-500}
-        &-600 {color: $color-secondary-green-600}
-        &-700 {color: $color-secondary-green-700}
-        &-800 {color: $color-secondary-green-800}
-        &-850 {color: $color-secondary-green-900}
-        &-900 {color: $color-secondary-green-950}
-      }
-      &-yellow {
-        &-50 {color: $color-secondary-yellow-50}
-        &-100 {color: $color-secondary-yellow-100}
-        &-200 {color: $color-secondary-yellow-200}
-        &-300 {color: $color-secondary-yellow-300}
-        &-400 {color: $color-secondary-yellow-400}
-        &-500 {color: $color-secondary-yellow-500}
-        &-600 {color: $color-secondary-yellow-600}
-        &-700 {color: $color-secondary-yellow-700}
-        &-800 {color: $color-secondary-yellow-800}
-        &-850 {color: $color-secondary-yellow-900}
-        &-900 {color: $color-secondary-yellow-950}
-      }
-      &-red {
-        &-50 {color: $color-secondary-red-50}
-        &-100 {color: $color-secondary-red-100}
-        &-200 {color: $color-secondary-red-200}
-        &-300 {color: $color-secondary-red-300}
-        &-400 {color: $color-secondary-red-400}
-        &-500 {color: $color-secondary-red-500}
-        &-600 {color: $color-secondary-red-600}
-        &-700 {color: $color-secondary-red-700}
-        &-800 {color: $color-secondary-red-800}
-        &-850 {color: $color-secondary-red-900}
-        &-900 {color: $color-secondary-red-950}
-      }
+      &-50 {color: $secondary-schooner--50}
+      &-100 {color: $secondary-schooner--100}
+      &-200 {color: $secondary-schooner--200}
+      &-300 {color: $secondary-schooner--300}
+      &-400 {color: $secondary-schooner--400}
+      &-500 {color: $secondary-schooner--500}
+      &-600 {color: $secondary-schooner--600}
+      &-700 {color: $secondary-schooner--700}
+      &-800 {color: $secondary-schooner--800}
+      &-850 {color: $secondary-schooner--900}
+      &-900 {color: $secondary-schooner--950}
     }
   }
 }
@@ -173,29 +45,29 @@ $color-secondary-red-950: #130002;
 .svg {
   &-color-stroke {
     &-primary {
-      &-50 {stroke: $color-primary-50}
-      &-100 {stroke: $color-primary-100}
-      &-200 {stroke: $color-primary-200}
-      &-300 {stroke: $color-primary-300}
-      &-400 {stroke: $color-primary-400}
-      &-500 {stroke: $color-primary-500}
-      &-600 {stroke: $color-primary-600}
-      &-700 {stroke: $color-primary-700}
-      &-800 {stroke: $color-primary-800}
-      &-900 {stroke: $color-primary-900}
+      &-50 {stroke: $primary-bright-turquoise--50}
+      &-100 {stroke: $primary-bright-turquoise--100}
+      &-200 {stroke: $primary-bright-turquoise--200}
+      &-300 {stroke: $primary-bright-turquoise--300}
+      &-400 {stroke: $primary-bright-turquoise--400}
+      &-500 {stroke: $primary-bright-turquoise--500}
+      &-600 {stroke: $primary-bright-turquoise--600}
+      &-700 {stroke: $primary-bright-turquoise--700}
+      &-800 {stroke: $primary-bright-turquoise--800}
+      &-900 {stroke: $primary-bright-turquoise--900}
     }
     &-grey-blue {
-      &-50 {stroke: $color-grey-blue-50}
-      &-100 {stroke: $color-grey-blue-100}
-      &-200 {stroke: $color-grey-blue-200}
-      &-300 {stroke: $color-grey-blue-300}
-      &-400 {stroke: $color-grey-blue-400}
-      &-500 {stroke: $color-grey-blue-500}
-      &-600 {stroke: $color-grey-blue-600}
-      &-700 {stroke: $color-grey-blue-700}
-      &-800 {stroke: $color-grey-blue-800}
-      &-850 {stroke: $color-grey-blue-850}
-      &-900 {stroke: $color-grey-blue-900}
+      &-50 {stroke: $secondary-schooner--50}
+      &-100 {stroke: $secondary-schooner--100}
+      &-200 {stroke: $secondary-schooner--200}
+      &-300 {stroke: $secondary-schooner--300}
+      &-400 {stroke: $secondary-schooner--400}
+      &-500 {stroke: $secondary-schooner--500}
+      &-600 {stroke: $secondary-schooner--600}
+      &-700 {stroke: $secondary-schooner--700}
+      &-800 {stroke: $secondary-schooner--800}
+      &-850 {stroke: $secondary-schooner--900}
+      &-900 {stroke: $secondary-schooner--950}
     }
   }
 }
@@ -206,29 +78,29 @@ $color-secondary-red-950: #130002;
 .svg {
   &-color-fill {
     &-primary {
-      &-50 {fill: $color-primary-50}
-      &-100 {fill: $color-primary-100}
-      &-200 {fill: $color-primary-200}
-      &-300 {fill: $color-primary-300}
-      &-400 {fill: $color-primary-400}
-      &-500 {fill: $color-primary-500}
-      &-600 {fill: $color-primary-600}
-      &-700 {fill: $color-primary-700}
-      &-800 {fill: $color-primary-800}
-      &-900 {fill: $color-primary-900}
+      &-50 {fill: $primary-bright-turquoise--50}
+      &-100 {fill: $primary-bright-turquoise--100}
+      &-200 {fill: $primary-bright-turquoise--200}
+      &-300 {fill: $primary-bright-turquoise--300}
+      &-400 {fill: $primary-bright-turquoise--400}
+      &-500 {fill: $primary-bright-turquoise--500}
+      &-600 {fill: $primary-bright-turquoise--600}
+      &-700 {fill: $primary-bright-turquoise--700}
+      &-800 {fill: $primary-bright-turquoise--800}
+      &-900 {fill: $primary-bright-turquoise--900}
     }
     &-grey-blue {
-      &-50 {fill: $color-grey-blue-50}
-      &-100 {fill: $color-grey-blue-100}
-      &-200 {fill: $color-grey-blue-200}
-      &-300 {fill: $color-grey-blue-300}
-      &-400 {fill: $color-grey-blue-400}
-      &-500 {fill: $color-grey-blue-500}
-      &-600 {fill: $color-grey-blue-600}
-      &-700 {fill: $color-grey-blue-700}
-      &-800 {fill: $color-grey-blue-800}
-      &-850 {fill: $color-grey-blue-850}
-      &-900 {fill: $color-grey-blue-900}
+      &-50 {fill: $secondary-schooner--50}
+      &-100 {fill: $secondary-schooner--100}
+      &-200 {fill: $secondary-schooner--200}
+      &-300 {fill: $secondary-schooner--300}
+      &-400 {fill: $secondary-schooner--400}
+      &-500 {fill: $secondary-schooner--500}
+      &-600 {fill: $secondary-schooner--600}
+      &-700 {fill: $secondary-schooner--700}
+      &-800 {fill: $secondary-schooner--800}
+      &-850 {fill: $secondary-schooner--900}
+      &-900 {fill: $secondary-schooner--950}
     }
   }
 }
@@ -239,29 +111,29 @@ $color-secondary-red-950: #130002;
 .background {
   &-color {
     &-primary {
-      &-50 {background-color: $color-primary-50}
-      &-100 {background-color: $color-primary-100}
-      &-200 {background-color: $color-primary-200}
-      &-300 {background-color: $color-primary-300}
-      &-400 {background-color: $color-primary-400}
-      &-500 {background-color: $color-primary-500}
-      &-600 {background-color: $color-primary-600}
-      &-700 {background-color: $color-primary-700}
-      &-800 {background-color: $color-primary-800}
-      &-900 {background-color: $color-primary-900}
+      &-50 {background-color: $primary-bright-turquoise--50}
+      &-100 {background-color: $primary-bright-turquoise--100}
+      &-200 {background-color: $primary-bright-turquoise--200}
+      &-300 {background-color: $primary-bright-turquoise--300}
+      &-400 {background-color: $primary-bright-turquoise--400}
+      &-500 {background-color: $primary-bright-turquoise--500}
+      &-600 {background-color: $primary-bright-turquoise--600}
+      &-700 {background-color: $primary-bright-turquoise--700}
+      &-800 {background-color: $primary-bright-turquoise--800}
+      &-900 {background-color: $primary-bright-turquoise--900}
     }
     &-grey-blue {
-      &-50 {background-color: $color-grey-blue-50}
-      &-100 {background-color: $color-grey-blue-100}
-      &-200 {background-color: $color-grey-blue-200}
-      &-300 {background-color: $color-grey-blue-300}
-      &-400 {background-color: $color-grey-blue-400}
-      &-500 {background-color: $color-grey-blue-500}
-      &-600 {background-color: $color-grey-blue-600}
-      &-700 {background-color: $color-grey-blue-700}
-      &-800 {background-color: $color-grey-blue-800}
-      &-850 {background-color: $color-grey-blue-850}
-      &-900 {background-color: $color-grey-blue-900}
+      &-50 {background-color: $secondary-schooner--50}
+      &-100 {background-color: $secondary-schooner--100}
+      &-200 {background-color: $secondary-schooner--200}
+      &-300 {background-color: $secondary-schooner--300}
+      &-400 {background-color: $secondary-schooner--400}
+      &-500 {background-color: $secondary-schooner--500}
+      &-600 {background-color: $secondary-schooner--600}
+      &-700 {background-color: $secondary-schooner--700}
+      &-800 {background-color: $secondary-schooner--800}
+      &-850 {background-color: $secondary-schooner--900}
+      &-900 {background-color: $secondary-schooner--950}
     }
   }
 }
