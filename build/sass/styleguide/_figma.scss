@@ -228,8 +228,8 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 @mixin h1 {
   font-family: "K2D-light";
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 44px;
+  line-height: 52px;
   letter-spacing: 0%;
   font-weight: 300;
 }
@@ -237,23 +237,14 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 
 @mixin h2 {
   font-family: "K2D-light";
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 36px;
+  line-height: 44px;
   letter-spacing: 0%;
   font-weight: 300;
 }
 
 
 @mixin h3 {
-  font-family: "K2D-light";
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 0%;
-  font-weight: 300;
-}
-
-
-@mixin h4 {
   font-family: "K2D-light";
   font-size: 28px;
   line-height: 36px;
@@ -262,10 +253,19 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
 }
 
 
-@mixin h5 {
+@mixin h4 {
   font-family: "K2D-light";
   font-size: 24px;
   line-height: 32px;
+  letter-spacing: 0%;
+  font-weight: 300;
+}
+
+
+@mixin h5 {
+  font-family: "K2D-light";
+  font-size: 20px;
+  line-height: 28px;
   letter-spacing: 0%;
   font-weight: 300;
 }
