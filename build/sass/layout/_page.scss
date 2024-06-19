@@ -211,13 +211,13 @@ body {
     }
 
     //  Text styles
-    .text-style-hero-03-uppercase {
+    .text-style-hero-03 {
       color: $secondary-schooner--700;
     }
-    .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
+    .text-style-hero-01, .text-style-hero-02 {
       color: $primary-bright-turquoise--700;
     }
-    .text-style-hero-03-uppercase, .text-style-hero-01-uppercase {
+    .text-style-hero-03, .text-style-hero-01 {
       transition: color 0.96s ease-in-out;
     }
   }
@@ -273,19 +273,19 @@ body {
         }
 
         //  Text styles
-        .text-style-hero-03-uppercase {
+        .text-style-hero-03 {
           color: $secondary-schooner--200;
         }
-        .text-style-hero-01-uppercase, .text-style-hero-02-uppercase {
+        .text-style-hero-01, .text-style-hero-02 {
           color: $primary-bright-turquoise--200;
         }
       }
       &-light {
         //  Text styles
-        .text-style-hero-03-uppercase {
+        .text-style-hero-03 {
           color: $secondary-schooner--800;
         }
-        .text-style-hero-01-uppercase {
+        .text-style-hero-01 {
           color: $primary-bright-turquoise--800;
         }
       }

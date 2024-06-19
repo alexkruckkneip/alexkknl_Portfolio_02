@@ -1,4 +1,11 @@
- /* Variables  */
+// ---------- ---------- ---------- ---------- ----------
+// Figma
+// ---------- ---------- ---------- ---------- ----------
+
+
+// Variables
+// ---------- ---------- ---------- ---------- ----------
+
 $secondary-schooner--900: #141313FF;
 $secondary-schooner--950: #050505FF;
 $secondary-schooner--800: #302F2EFF;
@@ -75,7 +82,10 @@ $shadows-primary-layout: #00222A3D;
 $shadows-secondary-light: #1413133D;
 $shadows-secondary-layout: #1413133D;
 
- /* Aliases  */
+
+// Aliases
+// ---------- ---------- ---------- ---------- ----------
+
 $body-body--background-light: $secondary-schooner--100;
 $body-body--background-dark: $secondary-schooner--900;
 $body-body--background-layout: $secondary-schooner--900;
@@ -124,7 +134,10 @@ $text-body--emphasise-layout: $primary-bright-turquoise--300;
 $shadows-primary-dark: $secondary-schooner--950;
 $shadows-secondary-dark: $secondary-schooner--950;
 
-/* Color Styles  */
+
+// Color Styles
+// ---------- ---------- ---------- ---------- ----------
+
 $gt--50-200: linear-gradient(90deg, 0% rgba(241, 251, 255, 1), 100% rgba(164, 233, 255, 1));
 $gt--100-300: linear-gradient(90deg, 0% rgba(215, 245, 255, 1), 100% rgba(113, 222, 255, 1));
 $gt--200-400: linear-gradient(90deg, 0% rgba(164, 233, 255, 1), 100% rgba(62, 211, 255, 1));
@@ -146,7 +159,9 @@ $gs--600-800: linear-gradient(90deg, 0% rgba(106, 103, 101, 1), 100% rgba(48, 47
 $gs--700-900: linear-gradient(90deg, 0% rgba(77, 75, 74, 1), 100% rgba(20, 19, 19, 1));
 $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 1));
 
-/* Text Styles  */
+
+// Text Styles
+// ---------- ---------- ---------- ---------- ----------
 
 @mixin hero1 {
   font-family: "K2D-light";
@@ -371,7 +386,10 @@ $gs--800-950: linear-gradient(90deg, 0% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 
   font-weight: 400;
 }
 
-/* Effect Styles  */
+
+// Effect Styles
+// ---------- ---------- ---------- ---------- ----------
+
 .shadow-primary-4 {
   box-shadow: 0px 4px 4px 48px rgba(0, 34, 42, 0.24);
 }

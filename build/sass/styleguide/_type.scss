@@ -38,6 +38,10 @@
    font-family: K2D, sans-serif;
   }
 
+body {
+  color: $text-body--1-dark;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: "K2D-light";
   font-weight: 300;
@@ -46,183 +50,9 @@ h1, h2, h3, h4, h5 {
   margin-block-end: 0.5em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: $text-headline--1-dark;
 }
 
-@mixin text-style-h-1-uppercase() {
-  font-family: "K2D";
-  font-weight: 500;
-	font-size: 48px;
-	line-height: 48px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-@mixin text-style-h-2() {
-	font-size: 28px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 36px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-h-2-uppercase() {
-	font-size: 28px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 36px;
-  margin-top: 56px;
-  margin-bottom: 28px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-@mixin text-style-h-2-quote() {
-	font-size: 32px;
-	font-family: "roboto_serif--italic";
-	font-weight: 400;
-	font-style: italic;
-	line-height: 40px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-h-3() {
-	font-size: 20px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-h-3-uppercase() {
-	font-size: 24px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-@mixin text-style-h-3-quote() {
-	font-size: 22px;
-	font-family: "roboto_serif--italic";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 32px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-h-4-uppercase() {
-	font-size: 20px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 20px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-@mixin text-style-p() {
-	font-size: 16px;
-	font-family: "K2D";
-	font-weight: 300;
-	font-style: normal;
-	line-height: 24px;
-	text-decoration: none;
-	text-transform: none;
-  webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-}
-@mixin text-style-p-bold() {
-	font-size: 16px;
-	font-family: "K2D--bold";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 24px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-hero-hero-01-uppercase() {
-	font-size: 96px;
-	font-family: "K2D--bold";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 88px;
-	text-decoration: none;
-	text-transform: uppercase;
-
-  @media (max-width: $breakpoint--lg) {
-    font-size: 96px*0.75;
-    line-height: 88px*0.75;
-  }
-  @media (max-width: $breakpoint--xxs) {
-    font-size: 96px*0.5;
-    line-height: 88px*0.5;
-  }
-}
-@mixin text-style-hero-hero-02-uppercase() {
-	font-size: 64px;
-	font-family: "K2D--bold";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 56px;
-	text-decoration: none;
-	text-transform: uppercase;
-
-  @media (max-width: $breakpoint--lg) {
-    font-size: 64px*0.75;
-    line-height: 56px*0.75;
-  }
-  @media (max-width: $breakpoint--xxs) {
-    font-size: 64px*0.5;
-    line-height: 56px*0.5;
-  }
-}
-@mixin text-style-hero-hero-02() {
-	font-size: 48px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 140%;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-hero-hero-03() {
-	font-size: 32px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 40px;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-hero-hero-03-uppercase() {
-  font-size: 32px;
-	font-family: "K2D--bold";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 40px;
-	text-decoration: none;
-	text-transform: uppercase;
-
-  @media (max-width: $breakpoint--md) {
-    font-size: 32px*0.75;
-    line-height: 40px*0.75;
-  }
-  @media (max-width: $breakpoint--xxs) {
-    font-size: 32px*0.5;
-    line-height: 40px*0.5;
-  }
-}
-@mixin text-style-hero-hero-04() {
-	font-size: 24px;
-	font-family: "K2D";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 32px;
-	text-decoration: none;
-	text-transform: none;
-}
 
 
 // Hero
@@ -230,28 +60,20 @@ h1, h2, h3, h4, h5 {
 
 .text-style-hero {
   &-01 {
-    &-uppercase {
-      @include text-style-hero-hero-01-uppercase
-      hyphens: auto;
-    }
+    @include hero1
+    hyphens: auto;
   }
   &-02 {
-      &-uppercase {
-        @include text-style-hero-hero-02-uppercase
-        hyphens: auto;
-      }
-
-    @include text-style-hero-hero-02
+    @include hero2
+    hyphens: auto;
   }
   &-03 {
-      @include text-style-hero-hero-03
-
-      &-uppercase {
-        @include text-style-hero-hero-03-uppercase
-      }
+      @include hero3
+      hyphens: auto;
   }
   &-04 {
-      @include text-style-hero-hero-04
+      @include hero4
+      hyphens: auto;
   }
 }
 
