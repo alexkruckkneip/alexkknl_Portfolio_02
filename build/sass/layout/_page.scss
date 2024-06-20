@@ -115,7 +115,7 @@ body {
     @include gate-gate-animation;
 
     svg {
-      fill: url(#svg-gradiant-grey-blue-darker);
+      fill: url(#svg-gradiant-dark-bright-turquoise);
       filter: drop-shadow(0px 0px 48px $secondary-schooner--800);
       bottom: 0;
     }
@@ -135,7 +135,7 @@ body {
     @include gate-gate-animation;
 
     svg {
-      fill: url(#svg-gradiant-grey-blue-darker-invert);
+      fill: url(#svg-gradiant-dark-bright-turquoise-invert);
       top: -65px;
     }
   }
