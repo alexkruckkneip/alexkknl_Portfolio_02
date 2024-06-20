@@ -36,19 +36,20 @@
 		<!-- inject:svg -->
 		<svg xmlns="http://www.w3.org/2000/svg"><symbol id="svg--shape-gate--bottom" viewBox="0 0 9840 4772"><path clip-rule="evenodd" d="M9840 4772H0V64l4982.06.002c6.36 0 12.47-2.528 16.97-7.03l49.94-49.942A24.006 24.006 0 0 1 5065.94 0h76.12c6.36 0 12.47 2.529 16.97 7.03l49.94 49.94c4.5 4.502 7.8 7.03 14.17 7.03H9840z"/></symbol><symbol id="svg--shape-gate--top" viewBox="0 0 9840 4772"><path d="M9840 0H0v4772h4982.06c6.36 0 12.47-2.53 16.97-7.03l49.94-49.94a24.01 24.01 0 0 1 16.97-7.03h76.12c6.36 0 12.47 2.53 16.97 7.03l49.94 49.94a24.01 24.01 0 0 0 16.97 7.03H9840V0z"/></symbol><symbol id="svg--shape-hexagon" viewBox="0 0 94 84"><path d="M92.69 38a8 8 0 0 1 0 8L73.31 79.57a8 8 0 0 1-6.929 4H27.62a8 8 0 0 1-6.928-4L1.309 46a8 8 0 0 1 0-8L20.691 4.43a8 8 0 0 1 6.928-4H66.38a8 8 0 0 1 6.928 4L92.691 38z"/></symbol><symbol id="svg--shape-nav--top" viewBox="0 0 9840 4772"><path clip-rule="evenodd" d="M9840 0H0v4772h9628.85c6.1 0 11.96-2.32 16.41-6.48l33.07-30.96a24.018 24.018 0 0 1 16.4-6.48h45.42c6.09 0 11.95 2.32 16.4 6.48l33.07 30.96a24.024 24.024 0 0 0 16.41 6.48H9840z"/></symbol><symbol id="svg-stroke-gate-top" viewBox="0 0 9840 4772"><path clip-rule="evenodd" d="M9838 2H2v4768h4980.06c5.83 0 11.43-2.32 15.56-6.44l49.94-49.95a26.008 26.008 0 0 1 18.38-7.61h76.12c6.89 0 13.51 2.74 18.38 7.61l49.94 49.94c4.13 4.13 9.73 6.45 15.56 6.45H9838zm2-2v4772H5225.94a24.01 24.01 0 0 1-16.97-7.03l-49.94-49.94a24.01 24.01 0 0 0-16.97-7.03h-76.12a24.01 24.01 0 0 0-16.97 7.03l-49.94 49.94a24.01 24.01 0 0 1-16.97 7.03H0V0z" fill="#33cef9" fill-rule="evenodd"/></symbol></svg>
 		<!-- endinject -->
-		<!-- svg gradiant grey blue -->
-		<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
-		  <lineargradient id="svg-gradiant-grey-blue-darker" x2="1" y2="1">
-				<stop offset="0%" stop-color="#363A3C"/>
-				<stop offset="50%" stop-color="#2A2D2F"/>
-				<stop offset="100%" stop-color="#1E2021"/>
-		  </lineargradient>
-			<lineargradient id="svg-gradiant-grey-blue-darker-invert" x2="1" y2="1">
-				<stop offset="0%" stop-color="#1E2021"/>
-				<stop offset="50%" stop-color="#2A2D2F"/>
-				<stop offset="100%" stop-color="#363A3C"/>
-		  </lineargradient>
-		</svg>
+
+			<!-- svg gradient dark bright turquoise -->
+			<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+			  <lineargradient id="svg-gradiant-dark-bright-turquoise" x2="1" y2="1">
+					<stop offset="0%" stop-color="#007B9A"/>
+					<stop offset="50%" stop-color="#00222A"/>
+					<stop offset="100%" stop-color="#050505"/>
+			  </lineargradient>
+				<lineargradient id="svg-gradiant-dark-bright-turquoise-invert" x2="1" y2="1">
+					<stop offset="0%" stop-color="#050505"/>
+					<stop offset="50%" stop-color="#00222A"/>
+					<stop offset="100%" stop-color="#007B9A"/>
+			  </lineargradient>
+			</svg>
 
 	</div>
 </head>
@@ -62,14 +63,14 @@
 		<div class="gate-hero">
 			<div class="gate-hero--top">
 				<div class="column whitespace-bottom-96">
-					<div class="text-style-hero-03">About me</div>
-					<div class="text-style-hero-01 hide-content-sm">Education </br>&amp; career</div>
-					<div class="text-style-hero-02 text-color-primary-200 show-content-sm">Education </br>&amp; career</div>
+					<div class="text-style-h3">About me</div>
+					<div class="text-style-hero-01 apply-hyphenation hide-content-md">Education </br>&amp; career</div>
+					<div class="text-style-hero-03 apply-hyphenation show-content-md">Education </br>&amp; career</div>
 				</div>
 			</div>
 			<div class="gate-hero--bottom">
 				<div class="column whitespace-top-64">
-					<div class="percentage text-color-primary-200 text-style-hero-03"><span id="gate-percentage">8</span>% loaded</div>
+					<div class="percentage text-color-primary-200 text-style-h3"><span id="gate-percentage">8</span>% loaded</div>
 					<div class="gate-loader-progress" id="loader-progress"></div>
 				</div>
 			</div>
@@ -266,9 +267,9 @@
 							</br><span class="text-color-grey-blue-400 text-style-h3">Credential ID UE-1111--04</span>
 						</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“In our vocational training, we provide you with the essential tools for a profound consulting activity in usability engineering.
+							<i class="text-style-quote-p-big">“In our vocational training, we provide you with the essential tools for a profound consulting activity in usability engineering.
 								You will learn the concepts, methods, and procedures of usability engineering in a practice-oriented manner.”</i>
-							</br><span class="text-color-grey-blue-400">[usability-ux.fit.fraunhofer.de in 2023]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[usability-ux.fit.fraunhofer.de in 2023]</span>
 						</p>
 						<p class="text-style-p text-color-grey-blue-200">
 							After almost 2 years as the first product designer at Europe's largest freight exchange TimoCom, I wanted to bring our customers more into the center of my work.
@@ -352,8 +353,8 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“Jaja to become the UK's largest digital lender by the end of 2023, delivering a digital credit card for Asda and the International Hotel Group”</i>
-							</br><span class="text-color-grey-blue-400">[Company vision announced in 2022]</span>
+							<i class="text-style-quote-p-big">“Jaja to become the UK's largest digital lender by the end of 2023, delivering a digital credit card for Asda and the International Hotel Group”</i>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[Company vision announced in 2022]</span>
 						</p>
 					</div>
 
@@ -424,10 +425,10 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“Recharge your online credit safely & securely at recharge.com.
+							<i class="text-style-quote-p-big">“Recharge your online credit safely & securely at recharge.com.
 							Get a digital prepaid code for your favourite entertainment service, game or online shop, or top up your mobile phone.
 							It's fast, safe & simple.”</i>
-							</br><span class="text-color-grey-blue-400">[recharge.com/en-gb in 2021]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[recharge.com/en-gb in 2021]</span>
 						</p>
 					</div>
 
@@ -482,9 +483,9 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“Every year, Genesys delivers more than 70 billion remarkable customer experiences for organizations in over 100 countries.
+							<i class="text-style-quote-p-big">“Every year, Genesys delivers more than 70 billion remarkable customer experiences for organizations in over 100 countries.
 								Through the power of the cloud and AI, our technology connects every customer moment across marketing, sales & service on any channel, while also improving employee experiences.”</i>
-							</br><span class="text-color-grey-blue-400">[genesys.com in 2021]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[genesys.com in 2021]</span>
 						</p>
 					</div>
 
@@ -544,10 +545,10 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“We serve some of the largest names in retail from 3 strategic locations around the globe.
+							<i class="text-style-quote-p-big">“We serve some of the largest names in retail from 3 strategic locations around the globe.
 								Maginus (a Naveo Commerce company) is proudly based out of our office in glorious Manchester.
 								We’ve built our reputation by recruiting some of the top-talent when it comes to eCommerce.”</i>
-							</br><span class="text-color-grey-blue-400">[maginus.com/about-us/ in 2021]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[maginus.com/about-us/ in 2021]</span>
 						</p>
 					</div>
 
@@ -599,9 +600,9 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“At Rentalcars.com everything we do is about giving you the freedom to discover more.
+							<i class="text-style-quote-p-big">“At Rentalcars.com everything we do is about giving you the freedom to discover more.
 								We’ll move mountains to find you the right rental car, and bring you a smooth, hassle-free experience from start to finish.”</i>
-							</br><span class="text-color-grey-blue-400">[rentalcars.com/us/about/ in 2021]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[rentalcars.com/us/about/ in 2021]</span>
 						</p>
 					</div>
 
@@ -664,11 +665,11 @@
 
 						<h3 class="text-color-grey-blue-200 text-style-h3">About</h3>
 						<p class="text-style-p text-color-grey-blue-200">
-							<i>“All of TIMOCOM is united by a common vision for the future of logistics.
+							<i class="text-style-quote-p-big">“All of TIMOCOM is united by a common vision for the future of logistics.
 								As a FreightTech company, we believe in a world without logistical challenges.
 								We have therefore made it our mission to make logistics smart, safe and simple.
 								We call this future: Augmented Logistics.”</i>
-							</br><span class="text-color-grey-blue-400">[timocom.co.uk/…/about-us in 2021]</span>
+							<span class="text-color-grey-blue-400 whitespace-top-8 helper-inline-block">[timocom.co.uk/…/about-us in 2021]</span>
 						</p>
 					</div>
 
