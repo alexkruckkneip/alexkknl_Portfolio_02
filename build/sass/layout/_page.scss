@@ -214,10 +214,10 @@ body {
     .text-style-h3 {
       color: $secondary-schooner--700;
     }
-    .text-style-hero-01, .text-style-hero-02 {
+    .text-style-hero-01, .text-style-hero-03 {
       color: $primary-bright-turquoise--700;
     }
-    .text-style-h3, .text-style-hero-01 {
+    .text-style-h3, .text-style-hero-01, .text-style-hero-03 {
       transition: color 0.96s ease-in-out;
     }
   }
@@ -276,7 +276,7 @@ body {
         .text-style-h3 {
           color: $secondary-schooner--200;
         }
-        .text-style-hero-01, .text-style-hero-02 {
+        .text-style-hero-01, .text-style-hero-03 {
           color: $primary-bright-turquoise--200;
         }
       }
