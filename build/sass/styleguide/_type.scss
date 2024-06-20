@@ -131,6 +131,10 @@ h1, h2, h3, h4, h5 {
     &-quote {
       &-p {
         @include quote-p
+
+        &-big {
+          @include quote-p-big
+        }
       }
     }
 }
