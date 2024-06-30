@@ -37,7 +37,7 @@ body {
 
   &.loaded {
     .content-wrapper {
-      background: $secondary-schooner--900;
+      background: linear-gradient(45deg, $primary-bright-turquoise--950, $primary-bright-turquoise--900);
       opacity: 1;
 
       animation: content-wrapper 1.92s;
@@ -316,8 +316,8 @@ body {
   svg {
     bottom: 0;
     display: block;
-    fill: $secondary-schooner--900;
-    filter: drop-shadow(0px 0px 48px $secondary-schooner--950);
+    fill: $primary-bright-turquoise--900;
+    filter: drop-shadow(0px 0px 48px $primary-bright-turquoise--950);
     position: absolute;
     right: 0;
     z-index: 200;
