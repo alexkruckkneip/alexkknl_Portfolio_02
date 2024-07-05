@@ -198,5 +198,22 @@ ul {
 }
 
 
-// button
+// List
 // ---------- ---------- ---------- ---------- ----------
+
+ul {
+  padding-left: 12px;
+
+  &.text-style-p {
+    li {
+      padding: 0 0 12px 0;
+
+      &::marker {
+        color: $primary-bright-turquoise--400;
+        content: '| ';
+        font-size: 1em;
+      }
+
+    }
+  }
+}
