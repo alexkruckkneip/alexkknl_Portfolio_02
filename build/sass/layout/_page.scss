@@ -396,7 +396,7 @@ body {
       max-height: calc(80vh - 64px);
       max-height: calc(80dvh - 64px);
       overflow-y: scroll;
-      padding: 96px 24px 0 144px;
+      padding: 40px 24px 0 120px;
       width: 100%;
       z-index: 200;
 
@@ -440,7 +440,8 @@ body {
 
       .scroll {
 
-        padding-left: 304px;
+        padding-left: 224px;
+        padding-top: 64px;
 
         @media (max-width: $breakpoint--hd) {
           margin-bottom: 48px;
