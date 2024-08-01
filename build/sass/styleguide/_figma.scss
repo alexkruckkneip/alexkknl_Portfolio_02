@@ -147,7 +147,7 @@ $gt--500-700: linear-gradient(90deg, 100% rgba(11, 202, 255, 1), 100% rgba(0, 12
 $gt--600-800: linear-gradient(90deg, 100% rgba(0, 166, 210, 1), 100% rgba(0, 79, 98, 1));
 $gt--700-900: linear-gradient(90deg, 100% rgba(0, 79, 98, 1), 100% rgba(0, 34, 42, 1));
 $gt--900-950: linear-gradient(90deg, 100% rgba(0, 34, 42, 1), 100% rgba(0, 11, 14, 1));
-$gt--800-950: linear-gradient(90deg, 0% rgba(0, 79, 98, 1), 100% rgba(0, 11, 14, 1));
+$gt--800-950: radial-gradient(ellipse at left, $primary-bright-turquoise--800, $primary-bright-turquoise--900);
 $gs-50-100: linear-gradient(90deg, 100% rgba(246, 246, 246, 1), 100% rgba(234, 233, 233, 1));
 $gs--100-200: linear-gradient(90deg, 100% rgba(234, 233, 233, 1), 100% rgba(209, 208, 207, 1));
 $gs--200-300: linear-gradient(90deg, 100% rgba(209, 208, 207, 1), 100% rgba(184, 182, 181, 1));
