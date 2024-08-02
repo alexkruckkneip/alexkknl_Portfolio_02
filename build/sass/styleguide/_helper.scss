@@ -321,11 +321,6 @@
 .avoid-page-break {
   page-break-inside: avoid;
 }
-@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
-  .avoid-page-break {
-    page-break-inside: auto;
-  }
-}
 
 // Hyphenation
 // ---------- ---------- ---------- ---------- ----------
