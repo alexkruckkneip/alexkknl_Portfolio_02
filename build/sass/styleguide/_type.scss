@@ -215,11 +215,10 @@ ul {
   &.text-style-p {
     li {
       padding: 0 0 12px 0;
+      list-style-type: "| ";
 
       &::marker {
         color: $primary-bright-turquoise--400;
-        content: '| ';
-        font-size: 1em;
       }
 
     }
