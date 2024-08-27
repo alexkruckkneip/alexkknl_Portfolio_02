@@ -332,6 +332,11 @@
   word-break: normal;
   word-wrap: break-word;
 }
+.no-hyphenation {
+  webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
 
 
 // Cursor
