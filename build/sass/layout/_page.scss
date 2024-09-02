@@ -374,6 +374,9 @@ body {
     &.active {
       color: $primary-bright-turquoise--200;
     }
+    &.inactive {
+      color: $secondary-schooner--200;
+    }
     &:focus-visible {
       outline: 0;
     }
