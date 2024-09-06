@@ -37,35 +37,37 @@
     mask-size: $mask-gate-width;
     -webkit-mask-size: $mask-gate-width;
 
-    &-align {
-      &-left {
-        background-position: left;
-      }
-      &-right {
-        background-position: right;
-      }
-    }
 
-    @media (max-width: $breakpoint--lg) {
-      justify-content: start;
-    }
-
-    overflow: hidden;
-    width: 100%;
-
-
-    @media (max-width: $breakpoint--sm) {
-      &-sm {
-        &-right {
-          background-position: right;
-        }
-      }
-    }
     &-image {
+
       height: 88vh;
 
       @media (orientation: portrait) {
         height: 72vh;
+      }
+
+      &-align {
+        &-left {
+          background-position: left;
+        }
+        &-right {
+          background-position: right;
+        }
+      }
+
+      @media (max-width: $breakpoint--lg) {
+        justify-content: start;
+      }
+
+      overflow: hidden;
+      width: 100%;
+
+      @media (max-width: $breakpoint--sm) {
+        &-sm {
+          &-right {
+            background-position: right;
+          }
+        }
       }
 
       &-2-3 {
@@ -88,16 +90,6 @@
       &-inline {
         height: 100%;
         width: 100%;
-      }
-      &--88 {
-        height: 88vh;
-
-        @media (orientation: portrait) {
-          height: 72vh;
-        }
-      }
-      &--80 {
-        max-height: 80vh;
       }
     }
   }
