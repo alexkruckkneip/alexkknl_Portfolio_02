@@ -93,6 +93,17 @@
         width: 100%;
       }
     }
+
+    // Stage
+    &-stage {
+
+      background: $gt--800-950;
+      height: 88vh;
+
+      @media (orientation: portrait) {
+        height: 72vh;
+      }
+    }
   }
 }
 

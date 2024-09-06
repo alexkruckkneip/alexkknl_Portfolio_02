@@ -138,26 +138,27 @@ $shadows-secondary-dark: $secondary-schooner--950;
 // Color Styles
 // ---------- ---------- ---------- ---------- ----------
 
-$gt--50-200: linear-gradient(90deg, 100% rgba(241, 251, 255, 1), 100% rgba(164, 233, 255, 1));
-$gt--100-300: linear-gradient(90deg, 100% rgba(215, 245, 255, 1), 100% rgba(113, 222, 255, 1));
-$gt--200-400: linear-gradient(90deg, 100% rgba(164, 233, 255, 1), 100% rgba(62, 211, 255, 1));
-$gt--300-500: linear-gradient(90deg, 100% rgba(113, 222, 255, 1), 100% rgba(11, 202, 255, 1));
-$gt--400-600: linear-gradient(90deg, 100% rgba(62, 211, 255, 1), 100% rgba(0, 166, 210, 1));
-$gt--500-700: linear-gradient(90deg, 100% rgba(11, 202, 255, 1), 100% rgba(0, 123, 154, 1));
-$gt--600-800: linear-gradient(90deg, 100% rgba(0, 166, 210, 1), 100% rgba(0, 79, 98, 1));
-$gt--700-900: linear-gradient(90deg, 100% rgba(0, 79, 98, 1), 100% rgba(0, 34, 42, 1));
-$gt--900-950: linear-gradient(90deg, 100% rgba(0, 34, 42, 1), 100% rgba(0, 11, 14, 1));
-$gt--800-950: radial-gradient(ellipse at left, $primary-bright-turquoise--800, $primary-bright-turquoise--900);
-$gs-50-100: linear-gradient(90deg, 100% rgba(246, 246, 246, 1), 100% rgba(234, 233, 233, 1));
-$gs--100-200: linear-gradient(90deg, 100% rgba(234, 233, 233, 1), 100% rgba(209, 208, 207, 1));
-$gs--200-300: linear-gradient(90deg, 100% rgba(209, 208, 207, 1), 100% rgba(184, 182, 181, 1));
-$gs--300-400: linear-gradient(90deg, 100% rgba(184, 182, 181, 1), 100% rgba(159, 157, 155, 1));
-$gs--300-500: linear-gradient(90deg, 100% rgba(184, 182, 181, 1), 100% rgba(134, 131, 129, 1));
-$gs--400-600: linear-gradient(90deg, 100% rgba(159, 157, 155, 1), 100% rgba(106, 103, 101, 1));
-$gs--500-700: linear-gradient(90deg, 100% rgba(134, 131, 129, 1), 100% rgba(77, 75, 74, 1));
-$gs--600-800: linear-gradient(90deg, 100% rgba(106, 103, 101, 1), 100% rgba(48, 47, 46, 1));
-$gs--700-900: linear-gradient(90deg, 100% rgba(77, 75, 74, 1), 100% rgba(20, 19, 19, 1));
-$gs--800-950: linear-gradient(90deg, 100% rgba(48, 47, 46, 1), 100% rgba(5, 5, 5, 1));
+$gt--50-200: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--50, $primary-bright-turquoise--200, $primary-bright-turquoise--50, $primary-bright-turquoise--200, $primary-bright-turquoise--50);
+$gt--100-300: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--100, $primary-bright-turquoise--300, $primary-bright-turquoise--100, $primary-bright-turquoise--300, $primary-bright-turquoise--100);
+$gt--200-400: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--200, $primary-bright-turquoise--400, $primary-bright-turquoise--200, $primary-bright-turquoise--400, $primary-bright-turquoise--200);
+$gt--300-500: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--300, $primary-bright-turquoise--500, $primary-bright-turquoise--300, $primary-bright-turquoise--500, $primary-bright-turquoise--300);
+$gt--400-600: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--400, $primary-bright-turquoise--600, $primary-bright-turquoise--400, $primary-bright-turquoise--600, $primary-bright-turquoise--400);
+$gt--500-700: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--500, $primary-bright-turquoise--700, $primary-bright-turquoise--500, $primary-bright-turquoise--700, $primary-bright-turquoise--500);
+$gt--600-800: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--600, $primary-bright-turquoise--800, $primary-bright-turquoise--600, $primary-bright-turquoise--800, $primary-bright-turquoise--600);
+$gt--700-900: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--700, $primary-bright-turquoise--900, $primary-bright-turquoise--700, $primary-bright-turquoise--900, $primary-bright-turquoise--700);
+$gt--900-950: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--900, $primary-bright-turquoise--950, $primary-bright-turquoise--900, $primary-bright-turquoise--950, $primary-bright-turquoise--900);
+$gt--800-950: conic-gradient(from 144deg at -1% -1%, $primary-bright-turquoise--800, $primary-bright-turquoise--950, $primary-bright-turquoise--800, $primary-bright-turquoise--950, $primary-bright-turquoise--800);
+
+$gs-50-100:  conic-gradient(from 144deg at -1% -1%, $secondary-schooner--50, $secondary-schooner--100, $secondary-schooner--50, $secondary-schooner--100, $secondary-schooner--50);
+$gs--100-200: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--100, $secondary-schooner--200, $secondary-schooner--100, $secondary-schooner--200, $secondary-schooner--100);
+$gs--200-300: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--200, $secondary-schooner--300, $secondary-schooner--200, $secondary-schooner--300, $secondary-schooner--200);
+$gs--300-400: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--300, $secondary-schooner--400, $secondary-schooner--300, $secondary-schooner--400, $secondary-schooner--400);
+$gs--300-500: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--300, $secondary-schooner--500, $secondary-schooner--300, $secondary-schooner--500, $secondary-schooner--300);
+$gs--400-600: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--400, $secondary-schooner--600, $secondary-schooner--400, $secondary-schooner--600, $secondary-schooner--400);
+$gs--500-700: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--500, $secondary-schooner--700, $secondary-schooner--500, $secondary-schooner--700, $secondary-schooner--500);
+$gs--600-800: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--600, $secondary-schooner--800, $secondary-schooner--600, $secondary-schooner--800, $secondary-schooner--600);
+$gs--700-900: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--700, $secondary-schooner--900, $secondary-schooner--700, $secondary-schooner--900, $secondary-schooner--700);
+$gs--800-950: conic-gradient(from 144deg at -1% -1%, $secondary-schooner--800, $secondary-schooner--950, $secondary-schooner--800, $secondary-schooner--950, $secondary-schooner--800);
 
 
 // Text Styles
