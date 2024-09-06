@@ -37,7 +37,7 @@ body {
 
   &.loaded {
     .content-wrapper {
-      background: linear-gradient(45deg, $primary-bright-turquoise--950, $primary-bright-turquoise--900);
+      background: $gt--900-950;
       opacity: 1;
 
       animation: content-wrapper 1.92s;
