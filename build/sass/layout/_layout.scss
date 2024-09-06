@@ -103,6 +103,14 @@
       @media (orientation: portrait) {
         height: 72vh;
       }
+
+      .stage {
+        background: $gt--900-950;
+        display: block;
+        min-height: 9vh;
+        padding: 2vw;
+        min-width: 16vh;
+      }
     }
   }
 }
