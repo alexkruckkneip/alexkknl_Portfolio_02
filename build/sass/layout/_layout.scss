@@ -23,7 +23,6 @@
 
 
   // Mask
-
   &-mask  {
 
     align-items: center;
@@ -37,7 +36,7 @@
     mask-size: $mask-gate-width;
     -webkit-mask-size: $mask-gate-width;
 
-
+    // Image
     &-image {
 
       height: 88vh;
@@ -83,6 +82,8 @@
         height: 240px;
       }
     }
+
+    // Video
     &-video {
       min-height: 100%;
       width: 100vw;
@@ -91,17 +92,6 @@
         height: 100%;
         width: 100%;
       }
-    }
-  }
-
-
-  // Flex
-
-  &-flex {
-    &-center {
-      display: flex;
-      align-content: center;
-      justify-content: center;
     }
   }
 }
