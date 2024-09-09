@@ -108,14 +108,21 @@
         background: $gt--900-950;
         border-radius: 1.5vh;
         display: block;
-        min-height: 9vh;
-        min-width: 16vh;
         padding: 1vh;
 
         video {
           border-radius: 0.5vh;
-          max-height: 64vh;
-          max-width: 88vw;
+
+          @media (orientation: portrait) {
+            width: 88vw;
+            max-height: 64vh;
+            max-width: 88vw;
+          }
+          @media (orientation: landscape) {
+            height: 64vh;
+            max-height: 64vh;
+            max-width: 88vw;
+          }
         }
       }
     }
