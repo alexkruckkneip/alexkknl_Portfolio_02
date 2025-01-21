@@ -5,12 +5,12 @@
     "gulp-sass": "^3.2.1",
     "gulp-ttf2woff": "^1.1.1",
     "gulp-util": "^3.0.8",
-    "sass": "^1.42.1"
+    "sass": "^1.83.4"
   },
   "dependencies": {
     "4": "0.0.0",
-    "browser-sync": "^2.27.5",
-    "cssnano": "^5.0.8",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^5.1.15",
     "gulp-cli": "^2.3.0",
     "gulp-inject": "^4.3.0",
     "gulp-postcss": "^9.0.1",
@@ -19,7 +19,7 @@
     "gulp-svgstore": "^6.1.0",
     "gulp-terser": "^2.1.0",
     "gulp-ttf2eot": "^1.1.2",
-    "minimatch": "^3.0.2",
+    "minimatch": "^3.1.2",
     "nvm": "0.0.4",
     "path": "^0.12.7",
     "ttf2eot": "^2.0.0"
