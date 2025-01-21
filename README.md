@@ -7,7 +7,7 @@
 Creating a portfolio web page for Alexander Karl Kruck-Kneip
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-* Version 2.0
+* Version 2.1
 
 ## How do I get set up? ##
 These instructions assume that Node.js and NVM have been installed correctly.
@@ -22,7 +22,7 @@ Go into the project folder and type the following commands:
 npm install
 ~~~~
 ~~~~
-nvm use 8
+nvm use 11
 ~~~~
 ~~~~
 gulp serve
